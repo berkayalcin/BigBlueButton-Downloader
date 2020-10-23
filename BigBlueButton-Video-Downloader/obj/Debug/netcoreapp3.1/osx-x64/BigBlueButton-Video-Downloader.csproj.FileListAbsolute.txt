@@ -1,0 +1,16 @@
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.deps.json
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.runtimeconfig.json
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.runtimeconfig.dev.json
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csprojAssemblyReference.cache
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.AssemblyInfoInputs.cache
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.AssemblyInfo.cs
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.genruntimeconfig.cache
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Newtonsoft.Json.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/WebDriver.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CopyComplete

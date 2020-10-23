@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>BigBlueButton_Video_Downloader</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Selenium.Chrome.WebDriver" Version="85.0.0" />
+      <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+      <PackageReference Include="Xabe.FFmpeg" Version="4.3.1" />
+      <PackageReference Include="Xabe.FFmpeg.Downloader" Version="4.3.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="chromedriver">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
