@@ -4,11 +4,106 @@
     <projectFile>BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="" />
+    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentOptions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonVideoDownloader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/FileDownloader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Enums/VideoType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Specifications/IVideoFileExtensionSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Specifications/Mp4VideoFileExtensionSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Specifications/VideoFileExtensionSpecificationFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Specifications/WebmVideoFileExtensionSpecification.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/WebDriver.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/Xabe.FFmpeg.Downloader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/Xabe.FFmpeg.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/deneme-desk.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/ffmpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/ffplay" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/ffprobe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libavcodec.58.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libavdevice.58.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libavfilter.7.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libavformat.58.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libavutil.56.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libpostproc.55.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libswresample.3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/libswscale.5.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/WebDriver.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/videotest.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
@@ -24,6 +119,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/50/3f7f9814/Snippets.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/af/a5f80f73/DefaultWait`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/21/bf44acb8/Conversion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/5f/72dd63da/RemoteWebDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -42,18 +138,24 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonVideoDownloader.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Enums/VideoType.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jHKTjMLr2mjvkTLnz07sijYOW5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.14250156" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
@@ -104,8 +206,16 @@
       <workItem from="1603472507896" duration="5443000" />
       <workItem from="1603479445728" duration="77000" />
       <workItem from="1603479665158" duration="3620000" />
-      <workItem from="1603483400102" duration="8053000" />
+      <workItem from="1603483400102" duration="8363000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1603491902314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603491902314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +235,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="346" y="350" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603491751044">
@@ -143,24 +255,32 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="462" height="464" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1603475371688" />
-    <state width="1638" height="426" key="GridCell.Tab.0.bottom" timestamp="1603491686181">
+    <state x="632" y="429" key="Github.ShareDialog" timestamp="1603491828510">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603491686181" />
+    <state x="632" y="429" key="Github.ShareDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603491828510" />
+    <state x="533" y="238" key="Github.UntrackedFilesDialog" timestamp="1603491843437">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="533" y="238" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603491843437" />
+    <state width="1638" height="426" key="GridCell.Tab.0.bottom" timestamp="1603491760198">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="426" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603491760198" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603478495421" />
-    <state width="1638" height="426" key="GridCell.Tab.0.center" timestamp="1603491686179">
+    <state width="1638" height="426" key="GridCell.Tab.0.center" timestamp="1603491760195">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603491686179" />
+    <state width="1638" height="426" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603491760195" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603478495413" />
-    <state width="1638" height="426" key="GridCell.Tab.0.left" timestamp="1603491686176">
+    <state width="1638" height="426" key="GridCell.Tab.0.left" timestamp="1603491760193">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603491686176" />
-    <state width="1638" height="426" key="GridCell.Tab.0.right" timestamp="1603491686180">
+    <state width="1638" height="426" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603491760193" />
+    <state width="1638" height="426" key="GridCell.Tab.0.right" timestamp="1603491760197">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603491686180" />
+    <state width="1638" height="426" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603491760197" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603478495420" />
     <state width="1638" height="391" key="GridCell.Tab.1.bottom" timestamp="1603488749521">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -234,6 +354,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="501" y="233" key="RiderGenerateDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603480731589" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603491904385">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603491904385" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603487126212">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
