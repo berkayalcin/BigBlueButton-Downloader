@@ -16,3 +16,7 @@
 /Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/chromedriver
 /Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/Xabe.FFmpeg.dll
 /Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/Xabe.FFmpeg.Downloader.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/Colorful.Console.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/chunky.flf
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/Goblinfactory.Konsole.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/CommandLine.dll

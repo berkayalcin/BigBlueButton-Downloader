@@ -25,6 +25,7 @@
         <e p="BigBlueButton-Video-Downloader.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="chromedriver" t="Include" />
+        <e p="chunky.flf" t="Include" />
         <e p="Constants" t="Include">
           <e p="BigBlueButtonConstants.cs" t="Include" />
           <e p="ExceptionCodeConstants.cs" t="Include" />
@@ -76,6 +77,10 @@
           <e p="Mp4VideoFileExtensionSpecification.cs" t="Include" />
           <e p="VideoFileExtensionSpecificationFactory.cs" t="Include" />
           <e p="WebmVideoFileExtensionSpecification.cs" t="Include" />
+        </e>
+        <e p="UI" t="Include">
+          <e p="CommandLineManager.cs" t="Include" />
+          <e p="ConsoleManager.cs" t="Include" />
         </e>
         <e p="Webdriver" t="Include">
           <e p="WebDriverExtensions.cs" t="Include" />

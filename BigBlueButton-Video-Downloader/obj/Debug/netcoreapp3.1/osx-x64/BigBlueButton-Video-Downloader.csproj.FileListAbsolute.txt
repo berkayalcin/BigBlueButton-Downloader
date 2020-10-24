@@ -14,3 +14,10 @@
 /Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Newtonsoft.Json.dll
 /Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/WebDriver.dll
 /Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CopyComplete
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/chromedriver
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/chunky.flf
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Colorful.Console.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/CommandLine.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Goblinfactory.Konsole.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Xabe.FFmpeg.dll
+/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Xabe.FFmpeg.Downloader.dll

@@ -8,6 +8,9 @@
     ".NETCoreApp,Version=v3.1": {
       "BigBlueButton-Video-Downloader/1.0.0": {
         "dependencies": {
+          "Colorful.Console": "1.2.11",
+          "CommandLineParser": "2.8.0",
+          "Goblinfactory.Konsole": "6.2.0",
           "Selenium.Chrome.WebDriver": "85.0.0",
           "Selenium.WebDriver": "3.141.0",
           "Xabe.FFmpeg": "4.3.1",
@@ -15,6 +18,45 @@
         },
         "runtime": {
           "BigBlueButton-Video-Downloader.dll": {}
+        }
+      },
+      "Colorful.Console/1.2.11": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Console": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO.FileSystem": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Colorful.Console.dll": {
+            "assemblyVersion": "1.2.11.0",
+            "fileVersion": "1.2.11.0"
+          }
+        }
+      },
+      "CommandLineParser/2.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "Goblinfactory.Konsole/6.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Goblinfactory.Konsole.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.0"
+          }
         }
       },
       "Microsoft.CSharp/4.3.0": {
@@ -859,6 +901,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Colorful.Console/1.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AZpnW0FYpEZhOYsg+xJzWwwPtXaeqn+P9e2yGPxSx80wGjDmgwPZ+NZH3tDUf3Aqx61OO5ZWLudz1BmC9+cqhA==",
+      "path": "colorful.console/1.2.11",
+      "hashPath": "colorful.console.1.2.11.nupkg.sha512"
+    },
+    "CommandLineParser/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eco2HlKQBY4Joz9odHigzGpVzv6pjsXnY5lziioMveQxr+i2Z7xYcIOMeZTgYiqnMtMAbXMXsVhrNfWO5vJS8Q==",
+      "path": "commandlineparser/2.8.0",
+      "hashPath": "commandlineparser.2.8.0.nupkg.sha512"
+    },
+    "Goblinfactory.Konsole/6.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hdCNwUhiu2bO00N6Pmnyz6gQJnCckMPr47IVugZD5Ig38+BNoW3bSgTzBvpc89933CwDe+5ndNDoPVk310bG6g==",
+      "path": "goblinfactory.konsole/6.2.0",
+      "hashPath": "goblinfactory.konsole.6.2.0.nupkg.sha512"
     },
     "Microsoft.CSharp/4.3.0": {
       "type": "package",

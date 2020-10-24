@@ -26,6 +26,18 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "Colorful.Console": {
+          "target": "Package",
+          "version": "[1.2.11, )"
+        },
+        "CommandLineParser": {
+          "target": "Package",
+          "version": "[2.8.0, )"
+        },
+        "Goblinfactory.Konsole": {
+          "target": "Package",
+          "version": "[6.2.0, )"
+        },
         "Selenium.Chrome.WebDriver": {
           "target": "Package",
           "version": "[85.0.0, )"
