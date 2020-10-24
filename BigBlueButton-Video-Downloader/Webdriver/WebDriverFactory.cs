@@ -22,8 +22,13 @@ namespace BigBlueButton_Video_Downloader.Webdriver
                 PageLoadStrategy = PageLoadStrategy.Normal,
                 LeaveBrowserRunning = true,
             };
+            chromeOptions.AddArgument("headless");
+            chromeOptions.AddArgument("mute-audio");
+            chromeOptions.AddArgument("--log-level=3");
+            chromeOptions.AddArgument("--disable-logging");
+            chromeOptions.AddExcludedArgument("enable-logging");
 
-            var chromeDriver = new ChromeDriver(AppDomain.CurrentDomain.BaseDirectory,chromeOptions);
+            var chromeDriver = new ChromeDriver(AppDomain.CurrentDomain.BaseDirectory, chromeOptions);
             WebDrivers.TryAdd(WebDriverType.Chrome, chromeDriver);
         }
 
