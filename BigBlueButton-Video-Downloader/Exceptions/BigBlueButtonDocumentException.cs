@@ -1,6 +1,6 @@
 using System;
 
-namespace BigBlueButton_Video_Downloader.BigBlueButton
+namespace BigBlueButton_Video_Downloader.Exceptions
 {
     public class BigBlueButtonDocumentException : Exception
     {

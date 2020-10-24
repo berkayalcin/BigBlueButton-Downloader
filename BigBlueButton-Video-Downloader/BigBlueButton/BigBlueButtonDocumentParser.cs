@@ -1,30 +1,40 @@
 using System;
 using System.Linq;
+using BigBlueButton_Video_Downloader.BigBlueButton.Interfaces;
 using BigBlueButton_Video_Downloader.Enums;
+using BigBlueButton_Video_Downloader.Exceptions;
 using BigBlueButton_Video_Downloader.Specifications;
 using BigBlueButton_Video_Downloader.Webdriver;
 using OpenQA.Selenium;
 
 namespace BigBlueButton_Video_Downloader.BigBlueButton
 {
-    public class BigBlueButtonDocumentParser
+    public class BigBlueButtonDocumentParser : IBigBlueButtonDocumentParser
     {
         private readonly IWebDriver _webDriver;
-        private readonly BigBlueButtonDocumentOptions _options;
+        private BigBlueButtonDocumentOptions _options;
 
-        public BigBlueButtonDocumentParser(IWebDriver webDriver, BigBlueButtonDocumentOptions options)
+        public BigBlueButtonDocumentParser(IWebDriver webDriver)
         {
             _webDriver = webDriver;
+        }
+
+        public void SetOptions(BigBlueButtonDocumentOptions options)
+        {
             _options = options;
         }
 
-        private IWebElement GetByCssSelector(string selector)
+        public IWebElement GetByCssSelector(string selector)
         {
-            return _webDriver.ExactlyFindElement(By.CssSelector(selector), _options.TimeOutSeconds);
+            CheckDocumentOptions();
+
+            return _webDriver.GetByCssSelector(selector, _options.TimeOutSeconds);
         }
 
         public string GetRecordingTitle()
         {
+            CheckDocumentOptions();
+
             var recordTitle = GetByCssSelector(_options.RecordingTitleSelector);
 
             if (recordTitle == null)
@@ -33,8 +43,16 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             return recordTitle.Text;
         }
 
+        private void CheckDocumentOptions()
+        {
+            if (_options == null)
+                throw new BigBlueButtonDocumentException("Firstly, Set Document Options");
+        }
+
         public string GetVideoSource()
         {
+            CheckDocumentOptions();
+
             var playButton = GetByCssSelector(_options.PlayButtonSelector);
 
             if (playButton == null)

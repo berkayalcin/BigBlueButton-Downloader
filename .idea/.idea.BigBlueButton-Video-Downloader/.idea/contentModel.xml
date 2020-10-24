@@ -8,19 +8,33 @@
       <e p="BigBlueButton-Video-Downloader" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
         <e p="BigBlueButton" t="Include">
-          <e p="BigBlueButtonDocumentException.cs" t="Include" />
           <e p="BigBlueButtonDocumentOptions.cs" t="Include" />
           <e p="BigBlueButtonDocumentParser.cs" t="Include" />
-          <e p="BigBlueButtonVideoDownloader.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="BigBlueButtonFacade.cs" t="Include" />
+            <e p="IBigBlueButtonDocumentParser.cs" t="Include" />
+            <e p="IBigBlueButtonFacade.cs" t="Include" />
+          </e>
         </e>
         <e p="BigBlueButton-Video-Downloader.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="chromedriver" t="Include" />
         <e p="Downloader" t="Include">
           <e p="FileDownloader.cs" t="Include" />
+          <e p="IFileDownloader.cs" t="Include" />
         </e>
         <e p="Enums" t="Include">
           <e p="VideoType.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="BigBlueButtonDocumentException.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="AppDomainHelpers.cs" t="Include" />
+        </e>
+        <e p="Media" t="Include">
+          <e p="IVideoService.cs" t="Include" />
+          <e p="VideoService.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
