@@ -58,6 +58,7 @@
         </e>
         <e p="Models" t="Include">
           <e p="BaseModel.cs" t="Include" />
+          <e p="BatchItem.cs" t="Include" />
           <e p="FacadeInnerResponseModel.cs" t="Include" />
           <e p="PresentationItem.cs" t="Include" />
           <e p="PresentationModel.cs" t="Include" />
@@ -79,8 +80,10 @@
           <e p="WebmVideoFileExtensionSpecification.cs" t="Include" />
         </e>
         <e p="UI" t="Include">
+          <e p="BatchDownloadOptions.cs" t="Include" />
           <e p="CommandLineManager.cs" t="Include" />
           <e p="ConsoleManager.cs" t="Include" />
+          <e p="SingleDownloadOptions.cs" t="Include" />
         </e>
         <e p="Webdriver" t="Include">
           <e p="WebDriverExtensions.cs" t="Include" />

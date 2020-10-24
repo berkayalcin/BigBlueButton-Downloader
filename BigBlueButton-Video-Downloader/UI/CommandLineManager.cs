@@ -1,7 +1,11 @@
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using BigBlueButton_Video_Downloader.BigBlueButton;
 using BigBlueButton_Video_Downloader.Downloader;
 using BigBlueButton_Video_Downloader.Media;
+using BigBlueButton_Video_Downloader.Models;
 using BigBlueButton_Video_Downloader.Webdriver;
 using Colorful;
 using CommandLine;
@@ -19,57 +23,7 @@ namespace BigBlueButton_Video_Downloader.UI
                     {
                         try
                         {
-                            var bigBlueButtonFacade = new BigBlueButtonFacade(
-                                    new FileDownloader(),
-                                    new VideoService(),
-                                    new PresentationService(
-                                        new VideoService()
-                                    )
-                                )
-                                .SetUrl(opts.DownloadUrl)
-                                .SetDriverType(WebDriverType.Chrome)
-                                .SetOutputFileName(opts.OutputFile)
-                                .SetOutputDirectory(opts.OutputDirectory);
-
-                            if (opts.UseMultiThread)
-                            {
-                                bigBlueButtonFacade.EnableMultiThread();
-                            }
-                            else
-                            {
-                                bigBlueButtonFacade.DisableMultiThread();
-                            }
-
-                            if (opts.DownloadPresentation)
-                            {
-                                bigBlueButtonFacade.EnableDownloadPresentation();
-                            }
-                            else
-                            {
-                                bigBlueButtonFacade.DisableDownloadPresentation();
-                            }
-
-                            if (opts.DownloadWebcam)
-                            {
-                                bigBlueButtonFacade.EnableDownloadWebcamVideo();
-                            }
-                            else
-                            {
-                                bigBlueButtonFacade.DisableDownloadWebcamVideo();
-                            }
-
-                            if (opts.DownloadDeskShare)
-                            {
-                                bigBlueButtonFacade.EnableDownloadDeskshareVideo();
-                            }
-                            else
-                            {
-                                bigBlueButtonFacade.DisableDownloadDeskshareVideo();
-                            }
-
-
-                            bigBlueButtonFacade
-                                .StartAsync().GetAwaiter().GetResult();
+                            SingleDownload(opts);
                         }
                         catch (Exception e)
                         {
@@ -79,40 +33,113 @@ namespace BigBlueButton_Video_Downloader.UI
 
                         return 0;
                     },
-                    (BatchDownloadOptions batch) => { return 0; },
+                    (BatchDownloadOptions batch) =>
+                    {
+                        try
+                        {
+                            var batchItems = ParseBatchItems(batch.BatchListFilePath);
+                            foreach (var batchItem in batchItems)
+                            {
+                                SingleDownload(new SingleDownloadOptions()
+                                {
+                                    DownloadPresentation = batchItem.DownloadPresentation,
+                                    DownloadUrl = batchItem.Url,
+                                    DownloadWebcam = batchItem.DownloadWebcam,
+                                    DownloadDeskShare = batchItem.DownloadDeskShare,
+                                    UseMultiThread = batch.UseMultiThread,
+                                    OutputDirectory = batch.OutputDirectory,
+                                    OutputFile = batchItem.OutputName
+                                });
+                            }
+                        }
+                        catch (Exception e)
+                        {
+                            Console.WriteLine($"Error Occured : {e.Message}");
+                            return -1;
+                        }
+
+                        return 0;
+                    },
                     errs => 1
                 );
         }
-    }
 
-    [Verb("batch-download", HelpText = "Batch Download")]
-    public class BatchDownloadOptions
-    {
-    }
+        private static void SingleDownload(SingleDownloadOptions opts)
+        {
+            var bigBlueButtonFacade = new BigBlueButtonFacade(
+                    new FileDownloader(),
+                    new VideoService(),
+                    new PresentationService(
+                        new VideoService()
+                    )
+                )
+                .SetUrl(opts.DownloadUrl)
+                .SetDriverType(WebDriverType.Chrome)
+                .SetOutputFileName(opts.OutputFile)
+                .SetOutputDirectory(opts.OutputDirectory);
 
-    [Verb("download", HelpText = "Single Download")]
-    public class SingleDownloadOptions
-    {
-        [Option('m', "useMultiThread", Required = false, HelpText = "Optional - Enables Multi-Thread Processing.")]
-        public bool UseMultiThread { get; set; }
+            if (opts.UseMultiThread)
+            {
+                bigBlueButtonFacade.EnableMultiThread();
+            }
+            else
+            {
+                bigBlueButtonFacade.DisableMultiThread();
+            }
 
-        [Option('u', "url", Required = true, HelpText = "Download Url.")]
-        public string DownloadUrl { get; set; }
+            if (opts.DownloadPresentation)
+            {
+                bigBlueButtonFacade.EnableDownloadPresentation();
+            }
+            else
+            {
+                bigBlueButtonFacade.DisableDownloadPresentation();
+            }
 
-        [Option('o', "outputFile", Required = true, HelpText = "Output File Name")]
-        public string OutputFile { get; set; }
+            if (opts.DownloadWebcam)
+            {
+                bigBlueButtonFacade.EnableDownloadWebcamVideo();
+            }
+            else
+            {
+                bigBlueButtonFacade.DisableDownloadWebcamVideo();
+            }
 
-        [Option('d', "outputDirectory", Required = true, HelpText = "Output Directory Path")]
-        public string OutputDirectory { get; set; }
+            if (opts.DownloadDeskShare)
+            {
+                bigBlueButtonFacade.EnableDownloadDeskshareVideo();
+            }
+            else
+            {
+                bigBlueButtonFacade.DisableDownloadDeskshareVideo();
+            }
 
-        [Option('w', "downloadWebcam", Required = true, HelpText = "Sets Whether Download Webcam Video.")]
-        public bool DownloadWebcam { get; set; }
 
+            bigBlueButtonFacade
+                .StartAsync().GetAwaiter().GetResult();
+        }
 
-        [Option('v', "downloadDeskShare", Required = true, HelpText = "Sets Whether Download Desk-Share Video.")]
-        public bool DownloadDeskShare { get; set; }
-
-        [Option('p', "downloadPresentation", Required = true, HelpText = "Sets Whether Download Presentation Video.")]
-        public bool DownloadPresentation { get; set; }
+        public static IEnumerable<BatchItem> ParseBatchItems(string path)
+        {
+            using var streamReader = new StreamReader(path);
+            var line = "";
+            while (!string.IsNullOrEmpty(line = streamReader.ReadLine()))
+            {
+                var items = line.Split("|");
+                var url = items.ElementAt(0);
+                var outputName = items.ElementAt(1);
+                var downloadDeskshare = bool.Parse(items.ElementAtOrDefault(2) ?? "true");
+                var downloadPresentation = bool.Parse(items.ElementAtOrDefault(3) ?? "true");
+                var downloadWebcam = bool.Parse(items.ElementAtOrDefault(4) ?? "true");
+                yield return new BatchItem()
+                {
+                    Url = url,
+                    OutputName = outputName,
+                    DownloadDeskShare = downloadDeskshare,
+                    DownloadPresentation = downloadPresentation,
+                    DownloadWebcam = downloadWebcam
+                };
+            }
+        }
     }
 }

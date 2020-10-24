@@ -84,7 +84,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             var baseUrl = uri.Scheme + "://" + uri.Host;
             var presentationItems = presentationElement
                 .ConvertToPresentationItems()
-                .Where(i => i.In != 0 || i.Out != 0)
+                .Where(i => i.Out != 0)
                 .Select(i =>
                 {
                     var source = i.Source;
