@@ -24,7 +24,7 @@ namespace BigBlueButton_Video_Downloader.Webdriver
             }
             catch (Exception e)
             {
-                throw new BigBlueButtonDocumentException("No Such Element");
+                return null;
             }
         }
 

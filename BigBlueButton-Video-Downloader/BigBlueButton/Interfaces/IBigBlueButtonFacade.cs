@@ -16,9 +16,13 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton.Interfaces
         IBigBlueButtonFacade DisableMultiThread();
         IBigBlueButtonFacade SetOutputFileName(string fileName);
         IBigBlueButtonFacade SetVideoType(VideoType videoType);
-        IBigBlueButtonFacade SetDeskshareOptions(BigBlueButtonDocumentOptions deskShareOptions);
-        IBigBlueButtonFacade SetWebcamOptions(BigBlueButtonDocumentOptions webcamOptions);
         Task StartAsync();
-        void RemoveTempFiles(string webcamVideoName, string audioOutputName, string deskShareVideoName);
+
+        void RemoveTempFiles(string webcamVideoName, string audioOutputName, string deskShareVideoName,
+            string presentationName);
+
+        IBigBlueButtonFacade EnableDownloadPresentation();
+        IBigBlueButtonFacade DisableDownloadPresentation();
+        IBigBlueButtonFacade SetTimeoutSeconds(int seconds);
     }
 }

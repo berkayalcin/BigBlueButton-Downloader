@@ -1,31 +1,43 @@
-using BigBlueButton_Video_Downloader.Enums;
-
 namespace BigBlueButton_Video_Downloader.BigBlueButton
 {
     public sealed class BigBlueButtonDocumentOptions
     {
         private readonly string _recordingTitleSelector = "#recording-title";
         private readonly string _playButtonSelector = ".acorn-play-button";
-        private readonly VideoType _preferredVideoType;
-        private readonly string _videoElementSelector;
         private readonly int _timeOutSeconds;
+        private readonly BigBlueButtonDocumentDeskShareVideoOptions _deskShareVideoOptions;
+        private readonly BigBlueButtonDocumentWebcamVideoOptions _webcamVideoOptions;
+        private readonly BigBlueButtonPresentationOptions _presentationOptions;
 
-        public BigBlueButtonDocumentOptions(string videoElementSelector, int timeOutSeconds,
-            VideoType preferredVideoType = VideoType.Mp4)
+        private readonly string _documentUrl;
+
+
+        public BigBlueButtonDocumentOptions(int timeOutSeconds,
+            string documentUrl,
+            BigBlueButtonDocumentWebcamVideoOptions webcamVideoOptions,
+            BigBlueButtonDocumentDeskShareVideoOptions deskShareVideoOptions,
+            BigBlueButtonPresentationOptions presentationOptions)
         {
-            _videoElementSelector = videoElementSelector;
             _timeOutSeconds = timeOutSeconds;
-            _preferredVideoType = preferredVideoType;
+            _webcamVideoOptions = webcamVideoOptions;
+            _deskShareVideoOptions = deskShareVideoOptions;
+            _presentationOptions = presentationOptions;
+            _documentUrl = documentUrl;
         }
 
-        public string VideoElementSelector => _videoElementSelector;
-
-        public VideoType PreferredVideoType => _preferredVideoType;
 
         public string PlayButtonSelector => _playButtonSelector;
 
         public string RecordingTitleSelector => _recordingTitleSelector;
 
         public int TimeOutSeconds => _timeOutSeconds;
+
+        public BigBlueButtonDocumentWebcamVideoOptions WebcamVideoOptions => _webcamVideoOptions;
+
+        public BigBlueButtonDocumentDeskShareVideoOptions DeskShareVideoOptions => _deskShareVideoOptions;
+
+        public BigBlueButtonPresentationOptions PresentationOptions => _presentationOptions;
+
+        public string DocumentUrl => _documentUrl;
     }
 }

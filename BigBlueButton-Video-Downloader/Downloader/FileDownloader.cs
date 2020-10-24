@@ -8,7 +8,27 @@ namespace BigBlueButton_Video_Downloader.Downloader
 {
     public class FileDownloader : IFileDownloader
     {
-        public  async Task DownloadVideoFileAsync(string videoUrl,
+        public async Task DownloadPngFileAsync(string imageUrl,
+            string fileName,
+            Action<object, DownloadProgressChangedEventArgs> progressChangedEventHandler = null,
+            Action<object, AsyncCompletedEventArgs> asyncCompletedEventHandler = null)
+        {
+            if (imageUrl == null) throw new ArgumentNullException(nameof(imageUrl));
+            if (fileName == null) throw new ArgumentNullException(nameof(fileName));
+
+            var fileExtension = "png";
+            using var client = new WebClient();
+            if (progressChangedEventHandler != null)
+                client.DownloadProgressChanged += progressChangedEventHandler.Invoke;
+
+            if (asyncCompletedEventHandler != null)
+                client.DownloadFileCompleted += asyncCompletedEventHandler.Invoke;
+
+            await client.DownloadFileTaskAsync(imageUrl, $"{fileName}.{fileExtension.ToLowerInvariant()}");
+        }
+
+
+        public async Task DownloadVideoFileAsync(string videoUrl,
             string fileName,
             VideoType videoType,
             Action<object, DownloadProgressChangedEventArgs> progressChangedEventHandler = null,
@@ -22,7 +42,7 @@ namespace BigBlueButton_Video_Downloader.Downloader
             var fileExtension = Enum.GetName(typeof(VideoType), videoType);
             if (string.IsNullOrEmpty(fileExtension))
                 throw new ArgumentNullException(nameof(fileExtension));
-            
+
             using var client = new WebClient();
 
             if (progressChangedEventHandler != null)

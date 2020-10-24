@@ -13,5 +13,10 @@ namespace BigBlueButton_Video_Downloader.Downloader
             VideoType videoType,
             Action<object, DownloadProgressChangedEventArgs> progressChangedEventHandler = null,
             Action<object, AsyncCompletedEventArgs> asyncCompletedEventHandler = null);
+
+        Task DownloadPngFileAsync(string imageUrl,
+            string fileName,
+            Action<object, DownloadProgressChangedEventArgs> progressChangedEventHandler = null,
+            Action<object, AsyncCompletedEventArgs> asyncCompletedEventHandler = null);
     }
 }

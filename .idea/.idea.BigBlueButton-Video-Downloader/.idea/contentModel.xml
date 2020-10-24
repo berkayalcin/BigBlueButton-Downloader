@@ -7,11 +7,17 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="BigBlueButton-Video-Downloader" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
+        <e p="Attributes" t="Include">
+          <e p="NeedsDocumentOptionsAttribute.cs" t="Include" />
+        </e>
         <e p="BigBlueButton" t="Include">
+          <e p="BigBlueButtonDocumentDeskShareVideoOptions.cs" t="Include" />
           <e p="BigBlueButtonDocumentOptions.cs" t="Include" />
           <e p="BigBlueButtonDocumentParser.cs" t="Include" />
+          <e p="BigBlueButtonDocumentWebcamVideoOptions.cs" t="Include" />
+          <e p="BigBlueButtonFacade.cs" t="Include" />
+          <e p="BigBlueButtonPresentationOptions.cs" t="Include" />
           <e p="Interfaces" t="Include">
-            <e p="BigBlueButtonFacade.cs" t="Include" />
             <e p="IBigBlueButtonDocumentParser.cs" t="Include" />
             <e p="IBigBlueButtonFacade.cs" t="Include" />
           </e>
@@ -19,6 +25,10 @@
         <e p="BigBlueButton-Video-Downloader.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="chromedriver" t="Include" />
+        <e p="Constants" t="Include">
+          <e p="BigBlueButtonConstants.cs" t="Include" />
+          <e p="ExceptionCodeConstants.cs" t="Include" />
+        </e>
         <e p="Downloader" t="Include">
           <e p="FileDownloader.cs" t="Include" />
           <e p="IFileDownloader.cs" t="Include" />
@@ -29,12 +39,28 @@
         <e p="Exceptions" t="Include">
           <e p="BigBlueButtonDocumentException.cs" t="Include" />
         </e>
+        <e p="Extensions" t="Include">
+          <e p="StringExtensions.cs" t="Include" />
+        </e>
         <e p="Helpers" t="Include">
           <e p="AppDomainHelpers.cs" t="Include" />
         </e>
+        <e p="Mappers" t="Include">
+          <e p="PresentationMappers.cs" t="Include" />
+        </e>
         <e p="Media" t="Include">
+          <e p="IPresentationService.cs" t="Include" />
           <e p="IVideoService.cs" t="Include" />
+          <e p="PresentationService.cs" t="Include" />
           <e p="VideoService.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="BaseModel.cs" t="Include" />
+          <e p="FacadeInnerResponseModel.cs" t="Include" />
+          <e p="PresentationItem.cs" t="Include" />
+          <e p="PresentationModel.cs" t="Include" />
+          <e p="RecordingTitleModel.cs" t="Include" />
+          <e p="VideoSourceModel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
