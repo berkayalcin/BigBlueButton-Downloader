@@ -12,9 +12,9 @@ namespace BigBlueButton_Video_Downloader.Extensions
                 File.Delete(path);
         }
 
-        public static void DeleteFileInAppDirectory(string fileName, string fileExtension)
+        public static void DeleteFileInAppDirectory(string directory, string fileName, string fileExtension)
         {
-            DeleteIfExists(AppDomainHelpers.GetPath(fileName, fileExtension));
+            DeleteIfExists(AppDomainHelpers.GetPath(directory, fileName, fileExtension));
         }
     }
 }

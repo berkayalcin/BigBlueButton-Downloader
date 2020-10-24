@@ -4,6 +4,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
     {
         private readonly string _recordingTitleSelector = "#recording-title";
         private readonly string _playButtonSelector = ".acorn-play-button";
+        private readonly string _outputDirectory;
         private readonly int _timeOutSeconds;
         private readonly BigBlueButtonDocumentDeskShareVideoOptions _deskShareVideoOptions;
         private readonly BigBlueButtonDocumentWebcamVideoOptions _webcamVideoOptions;
@@ -14,6 +15,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
 
         public BigBlueButtonDocumentOptions(int timeOutSeconds,
             string documentUrl,
+            string outputDirectory,
             BigBlueButtonDocumentWebcamVideoOptions webcamVideoOptions,
             BigBlueButtonDocumentDeskShareVideoOptions deskShareVideoOptions,
             BigBlueButtonPresentationOptions presentationOptions)
@@ -23,6 +25,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             _deskShareVideoOptions = deskShareVideoOptions;
             _presentationOptions = presentationOptions;
             _documentUrl = documentUrl;
+            _outputDirectory = outputDirectory;
         }
 
 

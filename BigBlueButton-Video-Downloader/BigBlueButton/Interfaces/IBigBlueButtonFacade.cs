@@ -24,5 +24,6 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton.Interfaces
         IBigBlueButtonFacade EnableDownloadPresentation();
         IBigBlueButtonFacade DisableDownloadPresentation();
         IBigBlueButtonFacade SetTimeoutSeconds(int seconds);
+        IBigBlueButtonFacade SetOutputDirectory(string directory);
     }
 }

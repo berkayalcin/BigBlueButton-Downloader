@@ -27,6 +27,7 @@ namespace BigBlueButton_Video_Downloader
                 .EnableDownloadWebcamVideo()
                 .EnableDownloadPresentation()
                 .SetOutputFileName("BigBlueButtonVideo")
+                .SetOutputDirectory("/Users/berkay.yalcin/Desktop/deneme")
                 .StartAsync();
         }
     }

@@ -33,6 +33,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
         private VideoType _videoType;
         private string _outputFileName;
         private BigBlueButtonDocumentOptions _options;
+        private string _outputDirectory;
 
         public BigBlueButtonDocumentOptions Options
         {
@@ -41,6 +42,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                 if (_options == null)
                     return (_options = new BigBlueButtonDocumentOptions(_timeOutSeconds,
                         _url,
+                        _outputDirectory,
                         new BigBlueButtonDocumentWebcamVideoOptions(_videoType, BigBlueButtonConstants.WebcamSelector),
                         new BigBlueButtonDocumentDeskShareVideoOptions(_videoType,
                             BigBlueButtonConstants.DeskShareSelector),
@@ -56,6 +58,14 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             _fileDownloader = fileDownloader;
             _videoService = videoService;
             _presentationService = presentationService;
+        }
+
+        public IBigBlueButtonFacade SetOutputDirectory(string directory)
+        {
+            if(string.IsNullOrEmpty(_outputFileName))
+                throw new ArgumentNullException(nameof(_outputFileName),"Firstly, Call OutputFileName");
+            _outputDirectory = $"{directory}/{_outputFileName}";
+            return this;
         }
 
         public IBigBlueButtonFacade SetTimeoutSeconds(int seconds)
@@ -142,6 +152,11 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             if (!_isDownloadWebcamVideo && !_isDownloadPresentation)
                 throw new Exception("Either Presentaton or Desk-share Video Must Be Selected");
 
+            if (!Directory.Exists(_outputDirectory))
+                Directory.CreateDirectory(_outputDirectory);
+
+            Directory.SetCurrentDirectory(_outputDirectory);
+
             bool downloadVideoResponse = false,
                 downloadPresentationResponse = false,
                 hasAudio = false;
@@ -179,12 +194,12 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                 throw new BigBlueButtonDocumentException("Neither Video Nor Presentation Couldn't Be Downloaded.");
 
 
-            var audioInputPath = AppDomainHelpers.GetPath(webcamVideoName, ".mp4");
-            var audioOutputPath = AppDomainHelpers.GetPath($"{audioOutputName}", ".mp3");
-            var deskShareInputPath = AppDomainHelpers.GetPath($"{deskShareVideoName}", ".mp4");
-            var videoOutputPath = AppDomainHelpers.GetPath(_outputFileName, ".mp4");
-            var presentationOutputPath = AppDomainHelpers.GetPath(presentationName, ".mp4");
-            var tmpPresentationPath = AppDomainHelpers.GetPath(tmpPresentationName, ".mp4");
+            var audioInputPath = AppDomainHelpers.GetPath(_outputDirectory, webcamVideoName, ".mp4");
+            var audioOutputPath = AppDomainHelpers.GetPath(_outputDirectory, $"{audioOutputName}", ".mp3");
+            var deskShareInputPath = AppDomainHelpers.GetPath(_outputDirectory, $"{deskShareVideoName}", ".mp4");
+            var videoOutputPath = AppDomainHelpers.GetPath(_outputDirectory, _outputFileName, ".mp4");
+            var presentationOutputPath = AppDomainHelpers.GetPath(_outputDirectory, presentationName, ".mp4");
+            var tmpPresentationPath = AppDomainHelpers.GetPath(_outputDirectory, tmpPresentationName, ".mp4");
             if (downloadVideoResponse)
             {
                 if (hasAudio)
@@ -321,10 +336,10 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             string presentationName)
         {
             Console.WriteLine("Removing Temp Files");
-            FileExtensions.DeleteFileInAppDirectory(webcamVideoName, ".mp4");
-            FileExtensions.DeleteFileInAppDirectory(audioOutputName, ".mp3");
-            FileExtensions.DeleteFileInAppDirectory(deskShareVideoName, ".mp4");
-            FileExtensions.DeleteFileInAppDirectory(presentationName, ".mp4");
+            FileExtensions.DeleteFileInAppDirectory(_outputDirectory, webcamVideoName, ".mp4");
+            FileExtensions.DeleteFileInAppDirectory(_outputDirectory, audioOutputName, ".mp3");
+            FileExtensions.DeleteFileInAppDirectory(_outputDirectory, deskShareVideoName, ".mp4");
+            FileExtensions.DeleteFileInAppDirectory(_outputDirectory, presentationName, ".mp4");
 
             Console.WriteLine($"{_outputFileName} Done!");
         }

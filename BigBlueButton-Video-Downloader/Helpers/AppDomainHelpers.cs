@@ -1,4 +1,5 @@
 using System;
+using System.IO;
 
 namespace BigBlueButton_Video_Downloader.Helpers
 {
@@ -8,5 +9,8 @@ namespace BigBlueButton_Video_Downloader.Helpers
 
         public static string GetPath(string fileName, string fileExtension) =>
             $"{AppDomain.CurrentDomain.BaseDirectory}{fileName}{fileExtension}";
+
+        public static string GetPath(string directory, string fileName, string fileExtensions) =>
+            Path.Combine(directory, $"{fileName}{fileExtensions}");
     }
 }
