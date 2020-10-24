@@ -20,7 +20,7 @@ namespace BigBlueButton_Video_Downloader
                     new VideoService(),
                     new PresentationService(new VideoService()))
                 .SetUrl(
-                    "https://bbb22.pau.edu.tr/playback/presentation/2.0/playback.html?meetingId=12c8395af12fab1af1d10342665ffd9329c241d4-1603263277417")
+                    "https://bbb22.pau.edu.tr/playback/presentation/2.0/playback.html?meetingId=3d6ac0b859d6b392e65437f66c9a66fa759089c1-1602246232677")
                 .EnableMultiThread()
                 .SetDriverType(WebDriverType.Chrome)
                 .EnableDownloadDeskshareVideo()

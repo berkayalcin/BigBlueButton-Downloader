@@ -22,13 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add Download Presentation">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentOptions.cs" afterDir="false" />
+    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add Directory Options">
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/FileExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/FileExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Helpers/AppDomainHelpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Helpers/AppDomainHelpers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
@@ -174,7 +169,7 @@
       <workItem from="1603483400102" duration="8517000" />
       <workItem from="1603534338973" duration="4594000" />
       <workItem from="1603543850690" duration="9547000" />
-      <workItem from="1603558288879" duration="10143000" />
+      <workItem from="1603558288879" duration="10444000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1603491902314</created>
@@ -211,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603568589399</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Directory Options">
+      <created>1603569730869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603569730869</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +248,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Refactor" />
     <MESSAGE value="Add Download Presentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Download Presentation" />
+    <MESSAGE value="Add Directory Options" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Directory Options" />
   </component>
   <component name="WindowStateProjectService">
     <state x="346" y="350" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603491751044">
@@ -274,26 +277,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="533" y="238" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603491843437" />
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom" timestamp="1603569596815">
+    <state width="1638" height="270" key="GridCell.Tab.0.bottom" timestamp="1603569921986">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603569595944" />
-    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603569596815" />
-    <state width="1638" height="270" key="GridCell.Tab.0.center" timestamp="1603569596813">
+    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780145" />
+    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603569921986" />
+    <state width="1638" height="270" key="GridCell.Tab.0.center" timestamp="1603569921985">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603569595943" />
-    <state width="1638" height="270" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603569596813" />
-    <state width="1638" height="270" key="GridCell.Tab.0.left" timestamp="1603569596812">
+    <state width="1638" height="270" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
+    <state width="1638" height="270" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603569921985" />
+    <state width="1638" height="270" key="GridCell.Tab.0.left" timestamp="1603569921985">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603569595942" />
-    <state width="1638" height="270" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603569596812" />
-    <state width="1638" height="270" key="GridCell.Tab.0.right" timestamp="1603569596814">
+    <state width="1638" height="270" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
+    <state width="1638" height="270" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603569921985" />
+    <state width="1638" height="270" key="GridCell.Tab.0.right" timestamp="1603569921986">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="270" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603569595943" />
-    <state width="1638" height="270" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603569596814" />
+    <state width="1638" height="270" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780144" />
+    <state width="1638" height="270" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603569921986" />
     <state width="1638" height="391" key="GridCell.Tab.1.bottom" timestamp="1603566098193">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -383,10 +386,10 @@
     </state>
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603544929600" />
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603536197433" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603568590594">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603569731605">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603568590594" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603569731605" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603565878148">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

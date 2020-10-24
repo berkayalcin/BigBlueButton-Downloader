@@ -62,8 +62,8 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
 
         public IBigBlueButtonFacade SetOutputDirectory(string directory)
         {
-            if(string.IsNullOrEmpty(_outputFileName))
-                throw new ArgumentNullException(nameof(_outputFileName),"Firstly, Call OutputFileName");
+            if (string.IsNullOrEmpty(_outputFileName))
+                throw new ArgumentNullException(nameof(_outputFileName), "Firstly, Call OutputFileName");
             _outputDirectory = $"{directory}/{_outputFileName}";
             return this;
         }
@@ -215,7 +215,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                     await ExtractAndAddAudio(audioInputPath, audioOutputPath, tmpPresentationPath,
                         presentationOutputPath);
                 else
-                    File.Move(tmpPresentationName, presentationName, true);
+                    File.Move(tmpPresentationPath, presentationOutputPath, true);
             }
 
 
