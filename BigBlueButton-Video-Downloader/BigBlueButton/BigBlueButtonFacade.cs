@@ -7,6 +7,7 @@ using BigBlueButton_Video_Downloader.Constants;
 using BigBlueButton_Video_Downloader.Downloader;
 using BigBlueButton_Video_Downloader.Enums;
 using BigBlueButton_Video_Downloader.Exceptions;
+using BigBlueButton_Video_Downloader.Extensions;
 using BigBlueButton_Video_Downloader.Helpers;
 using BigBlueButton_Video_Downloader.Media;
 using BigBlueButton_Video_Downloader.Models;
@@ -183,7 +184,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             var deskShareInputPath = AppDomainHelpers.GetPath($"{deskShareVideoName}", ".mp4");
             var videoOutputPath = AppDomainHelpers.GetPath(_outputFileName, ".mp4");
             var presentationOutputPath = AppDomainHelpers.GetPath(presentationName, ".mp4");
-
+            var tmpPresentationPath = AppDomainHelpers.GetPath(tmpPresentationName, ".mp4");
             if (downloadVideoResponse)
             {
                 if (hasAudio)
@@ -196,10 +197,12 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             if (downloadPresentationResponse)
             {
                 if (hasAudio)
-                    await _videoService.AddAudio(tmpPresentationName, audioOutputPath, presentationName);
+                    await ExtractAndAddAudio(audioInputPath, audioOutputPath, tmpPresentationPath,
+                        presentationOutputPath);
                 else
                     File.Move(tmpPresentationName, presentationName, true);
             }
+
 
             RemoveTempFiles(
                 webcamVideoName,
@@ -213,11 +216,12 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             string inputPath, string outputPath)
         {
             Console.WriteLine("Extracting Audio");
-            await _videoService.ExtractAudio(audioInputPath,
-                audioOutputPath,
-                (o, args) => { },
-                _isUseMultiThread
-            );
+            if (!File.Exists(audioOutputPath))
+                await _videoService.ExtractAudio(audioInputPath,
+                    audioOutputPath,
+                    (o, args) => { },
+                    _isUseMultiThread
+                );
 
             Console.WriteLine("Adding Audio");
             await _videoService.AddAudio(inputPath,
@@ -311,19 +315,16 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             };
         }
 
-        public void RemoveTempFiles(string webcamVideoName, string audioOutputName, string deskShareVideoName,
+        public void RemoveTempFiles(string webcamVideoName,
+            string audioOutputName,
+            string deskShareVideoName,
             string presentationName)
         {
             Console.WriteLine("Removing Temp Files");
-
-            if (File.Exists(webcamVideoName))
-                File.Delete($"{webcamVideoName}.mp4");
-            if (File.Exists(audioOutputName))
-                File.Delete($"{audioOutputName}.mp3");
-            if (File.Exists(deskShareVideoName))
-                File.Delete($"{deskShareVideoName}.mp4");
-            if (File.Exists(presentationName))
-                File.Delete($"{presentationName}.mp4");
+            FileExtensions.DeleteFileInAppDirectory(webcamVideoName, ".mp4");
+            FileExtensions.DeleteFileInAppDirectory(audioOutputName, ".mp3");
+            FileExtensions.DeleteFileInAppDirectory(deskShareVideoName, ".mp4");
+            FileExtensions.DeleteFileInAppDirectory(presentationName, ".mp4");
 
             Console.WriteLine($"{_outputFileName} Done!");
         }

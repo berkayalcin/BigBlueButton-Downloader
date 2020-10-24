@@ -23,7 +23,7 @@ namespace BigBlueButton_Video_Downloader
                     "https://bbb22.pau.edu.tr/playback/presentation/2.0/playback.html?meetingId=12c8395af12fab1af1d10342665ffd9329c241d4-1603263277417")
                 .EnableMultiThread()
                 .SetDriverType(WebDriverType.Chrome)
-                .DisableDownloadDeskshareVideo()
+                .EnableDownloadDeskshareVideo()
                 .EnableDownloadWebcamVideo()
                 .EnableDownloadPresentation()
                 .SetOutputFileName("BigBlueButtonVideo")

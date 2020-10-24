@@ -40,6 +40,7 @@
           <e p="BigBlueButtonDocumentException.cs" t="Include" />
         </e>
         <e p="Extensions" t="Include">
+          <e p="FileExtensions.cs" t="Include" />
           <e p="StringExtensions.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">

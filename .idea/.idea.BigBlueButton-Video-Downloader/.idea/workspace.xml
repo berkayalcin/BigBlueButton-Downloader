@@ -22,38 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Refactor">
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Attributes/NeedsDocumentOptionsAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentDeskShareVideoOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentWebcamVideoOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonPresentationOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Constants/BigBlueButtonConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Constants/ExceptionCodeConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/StringExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Mappers/PresentationMappers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/IPresentationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/BaseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/FacadeInnerResponseModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/PresentationItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/PresentationModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/RecordingTitleModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/VideoSourceModel.cs" afterDir="false" />
+    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add Download Presentation">
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/FileExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentOptions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/BigBlueButtonFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonDocumentParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonDocumentParser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/FileDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/FileDownloader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/IFileDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/IFileDownloader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/deneme-desk.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/videotest.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
@@ -124,8 +99,9 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/FileExtensions.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
       </list>
     </option>
   </component>
@@ -196,7 +172,7 @@
       <workItem from="1603483400102" duration="8517000" />
       <workItem from="1603534338973" duration="4594000" />
       <workItem from="1603543850690" duration="9547000" />
-      <workItem from="1603558288879" duration="7853000" />
+      <workItem from="1603558288879" duration="8960000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1603491902314</created>
@@ -219,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603538683558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Download Presentation">
+      <created>1603567325991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603567325991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +236,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Add Download Presentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Download Presentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="346" y="350" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603491751044">
@@ -281,25 +265,25 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="533" y="238" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603491843437" />
-    <state width="1638" height="426" key="GridCell.Tab.0.bottom" timestamp="1603567292316">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="270" key="GridCell.Tab.0.bottom" timestamp="1603568232737">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603567289898" />
+    <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603568232737" />
     <state width="1638" height="426" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603567292316" />
-    <state width="1638" height="426" key="GridCell.Tab.0.center" timestamp="1603567292315">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="270" key="GridCell.Tab.0.center" timestamp="1603568232736">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603567289897" />
+    <state width="1638" height="270" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603568232736" />
     <state width="1638" height="426" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603567292315" />
-    <state width="1638" height="426" key="GridCell.Tab.0.left" timestamp="1603567292314">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="270" key="GridCell.Tab.0.left" timestamp="1603568232735">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603567289897" />
+    <state width="1638" height="270" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603568232735" />
     <state width="1638" height="426" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603567292314" />
-    <state width="1638" height="426" key="GridCell.Tab.0.right" timestamp="1603567292316">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state width="1638" height="270" key="GridCell.Tab.0.right" timestamp="1603568232736">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="426" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603567289898" />
+    <state width="1638" height="270" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603568232736" />
     <state width="1638" height="426" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603567292316" />
     <state width="1638" height="391" key="GridCell.Tab.1.bottom" timestamp="1603566098193">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -390,10 +374,10 @@
     </state>
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603544929600" />
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603536197433" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603538686063">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1603567327063">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603538686063" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603567327063" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603565878148">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
