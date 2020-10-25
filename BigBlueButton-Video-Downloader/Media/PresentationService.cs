@@ -45,7 +45,6 @@ namespace BigBlueButton_Video_Downloader.Media
                 {
                     var conversionResult = FFmpeg.Conversions.New()
                         .AddParameter($"-n -threads {threadCount}")
-                        .AddParameter("-y")
                         .AddParameter($"-framerate {presentationItemOut:0.00000}")
                         .AddParameter($"-i {presentationItem.LocalSource}")
                         .AddParameter("-vcodec libx264")
