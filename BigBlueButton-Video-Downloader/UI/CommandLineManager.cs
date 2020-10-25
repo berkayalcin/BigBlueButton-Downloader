@@ -66,8 +66,8 @@ namespace BigBlueButton_Video_Downloader.UI
                         }
                         catch (Exception e)
                         {
-                            Console.WriteLine($"Error Occured : {e.Message}");
-                            return -1;
+                            Console.WriteLine(
+                                $"Error Occured : {e.Message} Please Contact Us On Github https://github.com/berkayalcin/BigBlueButton-Downloader/");
                         }
 
                         return 0;
