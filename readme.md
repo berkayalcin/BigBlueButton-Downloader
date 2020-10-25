@@ -1,4 +1,4 @@
-# BigBlueButton Video Downloader
+# BigBlueButton Downloader
 
 BigBlueButton is an online conference system and has features such as conference recording and presentation.
 BigBlueButton Downloader allows you to download Presentation and Video at BBB Playback.
@@ -79,15 +79,15 @@ The BatchFile File must be a text file in the following format.
 
 ## ❤️&nbsp; Community and Contributions
 
-The BigBlueButton Video Downloader is a **community-driven open source project**. We are committed to a fully transparent development process and **highly appreciate any contributions**. Whether you are helping us fixing bugs, proposing new feature, improving our documentation or spreading the word - **we would love to have you as part of the BBB Video Downloader community**.
+The BigBlueButton Downloader is a **community-driven open source project**. We are committed to a fully transparent development process and **highly appreciate any contributions**. Whether you are helping us fixing bugs, proposing new feature, improving our documentation or spreading the word - **we would love to have you as part of the BBB Downloader community**.
 
 
 
 ## 🤝&nbsp; Found a bug? Missing a specific feature?
 
-Feel free to **file a new issue** with a respective title and description on the the [berkayalcin/BigBlueButton-Video-Downloader](https://github.com/berkayalcin/BigBlueButton-Video-Downloader/issues) repository. If you already found a solution to your problem, **we would love to review your pull request**!
+Feel free to **file a new issue** with a respective title and description on the the [berkayalcin/BigBlueButton-Downloader](https://github.com/berkayalcin/BigBlueButton-Downloader/issues) repository. If you already found a solution to your problem, **we would love to review your pull request**!
 
 
 
 ## 📘&nbsp; License
-The BigBlueButton Video Downloader is released under the under terms of the [MIT License](LICENSE).
+The BigBlueButton Downloader is released under the under terms of the [MIT License](LICENSE).
