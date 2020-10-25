@@ -22,8 +22,193 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Replace duplicate output file names">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add publishs">
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Microsoft.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Microsoft.VisualBasic.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Microsoft.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/Microsoft.Win32.Registry.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/SOS_README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Collections.Concurrent.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Collections.NonGeneric.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Collections.Specialized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ComponentModel.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ComponentModel.EventBasedAsync.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ComponentModel.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ComponentModel.TypeConverter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ComponentModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Data.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Data.DataSetExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.Process.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.TextWriterTraceListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.Tools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Diagnostics.Tracing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Drawing.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Dynamic.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Globalization.Native.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Globalization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Compression.Brotli.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Compression.Native.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Compression.Native.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.FileSystem.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.FileSystem.DriveInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.FileSystem.Watcher.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.IsolatedStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.MemoryMappedFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Pipes.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.Pipes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.UnmanagedMemoryStream.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.IO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Linq.Expressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Linq.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Linq.Queryable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Native.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Native.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Http.Native.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Http.Native.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.HttpListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Mail.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.NameResolution.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.NetworkInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Ping.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Requests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Security.Native.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Security.Native.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.ServicePoint.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.WebClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.WebHeaderCollection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.WebProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.WebSockets.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Private.CoreLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Private.DataContractSerialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Private.Uri.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Private.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Private.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.DispatchProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.Emit.ILGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.Emit.Lightweight.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.Emit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.TypeExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Reflection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Resources.Reader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Resources.ResourceManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Resources.Writer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.CompilerServices.VisualC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Handles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.InteropServices.WindowsRuntime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.InteropServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Intrinsics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Loader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Serialization.Formatters.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Serialization.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Serialization.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.WindowsRuntime.UI.Xaml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.WindowsRuntime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Claims.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Cng.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Csp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Native.Apple.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Native.Apple.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Native.OpenSsl.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Native.OpenSsl.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.OpenSsl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.Principal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.SecureString.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ServiceModel.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ServiceProcess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Text.Encoding.CodePages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Text.Encoding.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Text.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Text.RegularExpressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Channels.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Overlapped.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Tasks.Dataflow.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Tasks.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Thread.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.ThreadPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.Timer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Threading.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Transactions.Local.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Web.HttpUtility.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.XmlSerializer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/WindowsBase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/libclrjit.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/libcoreclr.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/libdbgshim.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/libhostfxr.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/libhostpolicy.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/libmscordaccore.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/libmscordbi.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/netstandard.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +234,7 @@
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/39/c1686749/DoubleExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/50/3f7f9814/Snippets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/linux-x64/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/af/a5f80f73/DefaultWait`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/21/bf44acb8/Conversion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/bc/d0a0da55/InputBuilder.cs" root0="SKIP_HIGHLIGHTING" />
@@ -102,12 +288,12 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverFactory.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/IPresentationService.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/VideoService.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/LinqExtensions.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +306,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34971997" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.14250156" />
@@ -130,17 +317,29 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Publish to folder.Publish Windows">
+  <component name="RunManager" selected="Compound.Publish Compound">
+    <configuration name="Publish Compound" type="CompoundRunConfigurationType">
+      <toRun name="Publish Windows" type="DotNetFolderPublish" />
+      <toRun name="Publish Unix" type="DotNetFolderPublish" />
+      <toRun name="Publish MacOs" type="DotNetFolderPublish" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="Publish Windows" type="DotNetFolderPublish" />
+      <toRun name="Publish Unix" type="DotNetFolderPublish" />
+      <toRun name="Publish MacOs" type="DotNetFolderPublish" />
+      <method v="2" />
+    </configuration>
     <configuration name="Publish MacOs" type="DotNetFolderPublish" factoryName="Publish to folder">
-      <riderPublish runtime="osx-x64" self_contained="true" target_folder="$USER_HOME$/Desktop/BigBlueButton/Osx64" target_framework="netcoreapp3.1" uuid_high="969054557915990630" uuid_low="-5031285634211158110" />
+      <riderPublish runtime="osx-x64" target_folder="$USER_HOME$/Desktop/BigBlueButton/Osx64" target_framework="netcoreapp3.1" uuid_high="969054557915990630" uuid_low="-5031285634211158110" />
       <method v="2" />
     </configuration>
     <configuration name="Publish Unix" type="DotNetFolderPublish" factoryName="Publish to folder">
-      <riderPublish runtime="linux-x64" self_contained="true" target_folder="$USER_HOME$/Desktop/BigBlueButton/Linux64" target_framework="netcoreapp3.1" uuid_high="969054557915990630" uuid_low="-5031285634211158110" />
+      <riderPublish runtime="linux-x64" target_folder="$USER_HOME$/Desktop/BigBlueButton/Linux64" target_framework="netcoreapp3.1" uuid_high="969054557915990630" uuid_low="-5031285634211158110" />
       <method v="2" />
     </configuration>
     <configuration name="Publish Windows" type="DotNetFolderPublish" factoryName="Publish to folder">
-      <riderPublish runtime="win-x64" self_contained="true" target_folder="$USER_HOME$/Desktop/BigBlueButton/Windows64" target_framework="netcoreapp3.1" uuid_high="969054557915990630" uuid_low="-5031285634211158110" />
+      <riderPublish runtime="win-x64" target_folder="$USER_HOME$/Desktop/BigBlueButton/Windows64" target_framework="netcoreapp3.1" uuid_high="969054557915990630" uuid_low="-5031285634211158110" />
       <method v="2" />
     </configuration>
     <configuration name="BigBlueButton-Video-Downloader" type="DotNetProject" factoryName=".NET Project">
@@ -163,6 +362,7 @@
     </configuration>
     <list>
       <item itemvalue=".NET Project.BigBlueButton-Video-Downloader" />
+      <item itemvalue="Compound.Publish Compound" />
       <item itemvalue="Publish to folder.Publish Unix" />
       <item itemvalue="Publish to folder.Publish MacOs" />
       <item itemvalue="Publish to folder.Publish Windows" />
@@ -187,7 +387,7 @@
       <workItem from="1603627380895" duration="668000" />
       <workItem from="1603628098482" duration="6378000" />
       <workItem from="1603635413052" duration="292000" />
-      <workItem from="1603635832412" duration="8214000" />
+      <workItem from="1603635832412" duration="8472000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1603491902314</created>
@@ -315,7 +515,28 @@
       <option name="project" value="LOCAL" />
       <updated>1603643633553</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Remove log messages">
+      <created>1603648831160</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1603648831160</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add publishs">
+      <created>1603648895221</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603648895221</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add publishs">
+      <created>1603648898943</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1603648898943</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +567,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add Download Presentation" />
@@ -361,14 +583,16 @@
     <MESSAGE value="Refactor" />
     <MESSAGE value="Add Paralel Batching" />
     <MESSAGE value="Replace duplicate output file names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace duplicate output file names" />
+    <MESSAGE value="Remove log messages" />
+    <MESSAGE value="Add publishs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add publishs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603648755372">
+    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603649014332">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="346" y="350" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603491751044" />
-    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603648755372" />
+    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603649014332" />
     <state x="546" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603536094796">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -391,106 +615,106 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="533" y="238" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603491843437" />
-    <state width="1638" height="370" key="GridCell.Tab.0.bottom" timestamp="1603643593561">
+    <state width="1638" height="370" key="GridCell.Tab.0.bottom" timestamp="1603648757245">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780145" />
-    <state width="1638" height="370" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593561" />
-    <state width="1638" height="370" key="GridCell.Tab.0.center" timestamp="1603643593560">
+    <state width="1638" height="370" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757245" />
+    <state width="1638" height="370" key="GridCell.Tab.0.center" timestamp="1603648757244">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
-    <state width="1638" height="370" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593560" />
-    <state width="1638" height="370" key="GridCell.Tab.0.left" timestamp="1603643593560">
+    <state width="1638" height="370" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757244" />
+    <state width="1638" height="370" key="GridCell.Tab.0.left" timestamp="1603648757244">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
-    <state width="1638" height="370" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593560" />
-    <state width="1638" height="370" key="GridCell.Tab.0.right" timestamp="1603643593561">
+    <state width="1638" height="370" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757244" />
+    <state width="1638" height="370" key="GridCell.Tab.0.right" timestamp="1603648757245">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780144" />
-    <state width="1638" height="370" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593561" />
-    <state width="1638" height="370" key="GridCell.Tab.1.bottom" timestamp="1603643595415">
+    <state width="1638" height="370" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757245" />
+    <state width="1638" height="370" key="GridCell.Tab.1.bottom" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098193" />
-    <state width="1638" height="370" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603643595415" />
-    <state width="1638" height="370" key="GridCell.Tab.1.center" timestamp="1603643595415">
+    <state width="1638" height="370" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.1.center" timestamp="1603648757245">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098192" />
-    <state width="1638" height="370" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603643595415" />
-    <state width="1638" height="370" key="GridCell.Tab.1.left" timestamp="1603643595414">
+    <state width="1638" height="370" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757245" />
+    <state width="1638" height="370" key="GridCell.Tab.1.left" timestamp="1603648757245">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098191" />
-    <state width="1638" height="370" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603643595414" />
-    <state width="1638" height="370" key="GridCell.Tab.1.right" timestamp="1603643595415">
+    <state width="1638" height="370" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757245" />
+    <state width="1638" height="370" key="GridCell.Tab.1.right" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098192" />
-    <state width="1638" height="370" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603643595415" />
-    <state width="1638" height="370" key="GridCell.Tab.2.bottom" timestamp="1603643593398">
+    <state width="1638" height="370" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.2.bottom" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098195" />
-    <state width="1638" height="370" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593398" />
-    <state width="1638" height="370" key="GridCell.Tab.2.center" timestamp="1603643593398">
+    <state width="1638" height="370" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.2.center" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098194" />
-    <state width="1638" height="370" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593398" />
-    <state width="1638" height="370" key="GridCell.Tab.2.left" timestamp="1603643593398">
+    <state width="1638" height="370" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.2.left" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098193" />
-    <state width="1638" height="370" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593398" />
-    <state width="1638" height="370" key="GridCell.Tab.2.right" timestamp="1603643593398">
+    <state width="1638" height="370" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.2.right" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098194" />
-    <state width="1638" height="370" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593398" />
-    <state width="1638" height="370" key="GridCell.Tab.3.bottom" timestamp="1603643593399">
+    <state width="1638" height="370" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.3.bottom" timestamp="1603648757247">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098196" />
-    <state width="1638" height="370" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593399" />
-    <state width="1638" height="370" key="GridCell.Tab.3.center" timestamp="1603643593399">
+    <state width="1638" height="370" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757247" />
+    <state width="1638" height="370" key="GridCell.Tab.3.center" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098195" />
-    <state width="1638" height="370" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593399" />
-    <state width="1638" height="370" key="GridCell.Tab.3.left" timestamp="1603643593398">
+    <state width="1638" height="370" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.3.left" timestamp="1603648757246">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098195" />
-    <state width="1638" height="370" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593398" />
-    <state width="1638" height="370" key="GridCell.Tab.3.right" timestamp="1603643593399">
+    <state width="1638" height="370" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757246" />
+    <state width="1638" height="370" key="GridCell.Tab.3.right" timestamp="1603648757247">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098196" />
-    <state width="1638" height="370" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593399" />
-    <state width="1638" height="370" key="GridCell.Tab.4.bottom" timestamp="1603643593400">
+    <state width="1638" height="370" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757247" />
+    <state width="1638" height="370" key="GridCell.Tab.4.bottom" timestamp="1603648757247">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098198" />
-    <state width="1638" height="370" key="GridCell.Tab.4.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593400" />
-    <state width="1638" height="370" key="GridCell.Tab.4.center" timestamp="1603643593399">
+    <state width="1638" height="370" key="GridCell.Tab.4.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757247" />
+    <state width="1638" height="370" key="GridCell.Tab.4.center" timestamp="1603648757247">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098197" />
-    <state width="1638" height="370" key="GridCell.Tab.4.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593399" />
-    <state width="1638" height="370" key="GridCell.Tab.4.left" timestamp="1603643593399">
+    <state width="1638" height="370" key="GridCell.Tab.4.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757247" />
+    <state width="1638" height="370" key="GridCell.Tab.4.left" timestamp="1603648757247">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098197" />
-    <state width="1638" height="370" key="GridCell.Tab.4.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593399" />
-    <state width="1638" height="370" key="GridCell.Tab.4.right" timestamp="1603643593399">
+    <state width="1638" height="370" key="GridCell.Tab.4.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757247" />
+    <state width="1638" height="370" key="GridCell.Tab.4.right" timestamp="1603648757247">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098197" />
-    <state width="1638" height="370" key="GridCell.Tab.4.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603643593399" />
+    <state width="1638" height="370" key="GridCell.Tab.4.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603648757247" />
     <state x="501" y="233" key="RiderGenerateDialog" timestamp="1603544847947">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -500,21 +724,21 @@
     </state>
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603544929600" />
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603536197433" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603643636403">
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603648900765">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603569731605" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603643636403" />
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603648900765" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603640223829">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="840" height="525" key="XDebugger.FullValuePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1603565878148" />
     <state width="840" height="525" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1603640223829" />
-    <state x="443" y="297" width="794" height="490" key="find.popup" timestamp="1603643619808">
+    <state x="443" y="297" width="794" height="490" key="find.popup" timestamp="1603648815461">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="443" y="280" width="794" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603567103801" />
-    <state x="443" y="297" width="794" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603643619808" />
+    <state x="443" y="297" width="794" height="490" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603648815461" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1603477206015">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
