@@ -65,6 +65,16 @@ The BatchFile File must be a text file in the following format.
     somePlayBackUrl2|file2|false|true|true
     somePlaybackUrl3|file3|true|false|true
 
+### Example Usage
+
+```bash
+ ./BigBlueButton-Video-Downloader \
+ -m true \
+ -d /Users/berkay/Desktop/TestDirectory/ \
+ -f /Users/berkay/Desktop/batchFile.txt
+
+```
+
 
 
 ## ❤️&nbsp; Community and Contributions
