@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using BigBlueButton_Video_Downloader.BigBlueButton;
 using BigBlueButton_Video_Downloader.Downloader;
 using BigBlueButton_Video_Downloader.Media;
@@ -38,7 +39,7 @@ namespace BigBlueButton_Video_Downloader.UI
                         try
                         {
                             var batchItems = ParseBatchItems(batch.BatchListFilePath);
-                            foreach (var batchItem in batchItems)
+                            Parallel.ForEach(batchItems, (batchItem, state, index) =>
                             {
                                 SingleDownload(new SingleDownloadOptions()
                                 {
@@ -50,7 +51,7 @@ namespace BigBlueButton_Video_Downloader.UI
                                     OutputDirectory = batch.OutputDirectory,
                                     OutputFile = batchItem.OutputName
                                 });
-                            }
+                            });
                         }
                         catch (Exception e)
                         {

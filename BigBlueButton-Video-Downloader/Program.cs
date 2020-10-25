@@ -19,23 +19,23 @@ namespace BigBlueButton_Video_Downloader
         static async Task Main(string[] args)
         {
             ShowWelcome();
-            // CommandLineManager.Parse(args);
+            CommandLineManager.Parse(args);
 
-            await new BigBlueButtonFacade(
-                    new FileDownloader(),
-                    new VideoService(),
-                    new PresentationService(new VideoService()))
-                .SetUrl(
-                    "https://bbb16.pau.edu.tr/playback/presentation/2.0/playback.html?meetingId=12c8395af12fab1af1d10342665ffd9329c241d4-1602053283330")
-                .EnableMultiThread()
-                .SetDriverType(WebDriverType.Chrome)
-                .EnableDownloadWebcamVideo()
-                .DisableDownloadDeskshareVideo()
-                .EnableDownloadPresentation()
-                .SetOutputFileName("BigBlueButtonVideo_1")
-                .SetOutputDirectory("/Users/berkay.yalcin/Desktop/deneme")
-                .SetTimeoutSeconds(60)
-                .StartAsync();
+            // await new BigBlueButtonFacade(
+            //         new FileDownloader(),
+            //         new VideoService(),
+            //         new PresentationService(new VideoService()))
+            //     .SetUrl(
+            //         "https://bbb16.pau.edu.tr/playback/presentation/2.0/playback.html?meetingId=12c8395af12fab1af1d10342665ffd9329c241d4-1602053283330")
+            //     .EnableMultiThread()
+            //     .SetDriverType(WebDriverType.Chrome)
+            //     .EnableDownloadWebcamVideo()
+            //     .EnableDownloadDeskshareVideo()
+            //     .EnableDownloadPresentation()
+            //     .SetOutputFileName("BigBlueButtonVideo_1")
+            //     .SetOutputDirectory("/Users/berkay.yalcin/Desktop/deneme")
+            //     .SetTimeoutSeconds(60)
+            //     .StartAsync();
         }
     }
 }
