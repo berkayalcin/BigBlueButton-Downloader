@@ -22,8 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Fix Overwrite output options">
+    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add Contact Us text">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/win-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +41,23 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/2d/079103f4/IConversion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/79/9fe9964c/ConversionPreset.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/6d/812508e3/ChromeOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98DB89E2-C3F6-4150-B40D-5C31A87535AF/e4/1380429b/ProgressBar.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/Media/IVideoService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98DB89E2-C3F6-4150-B40D-5C31A87535AF/57/1a966623/IProgressBar.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/Media/VideoService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/39/c1686749/DoubleExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/50/3f7f9814/Snippets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/af/a5f80f73/DefaultWait`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/21/bf44acb8/Conversion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/5f/72dd63da/RemoteWebDriver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/Media/PresentationService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/1D8/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/Media/PresentationService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/Media/IVideoService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/42/ae87e916/IVideoStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/12E/Interlocked.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/b3/937e4b41/VideoStream.cs" root0="SKIP_HIGHLIGHTING" />
@@ -56,6 +65,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EB067793-5C3F-4219-AEF1-3AB117C20649/5a/28633c2e/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/35/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/29/c7c8c954/TimeExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/linux-x64/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/bc/d0a0da55/InputBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -96,7 +106,6 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/FileDownloader.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/IFileDownloader.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/StringExtensions.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentOptions.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/FileExtensions.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Helpers/AppDomainHelpers.cs" />
@@ -106,11 +115,13 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverFactory.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/IPresentationService.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/VideoService.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/LinqExtensions.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/VideoService.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/IVideoService.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonFacade.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" />
       </list>
     </option>
@@ -135,7 +146,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.BigBlueButton-Video-Downloader">
+  <component name="RunManager" selected="Publish to folder.Publish Windows">
     <configuration name="Publish Compound" type="CompoundRunConfigurationType">
       <toRun name="Publish Windows" type="DotNetFolderPublish" />
       <toRun name="Publish Unix" type="DotNetFolderPublish" />
@@ -205,7 +216,7 @@
       <workItem from="1603627380895" duration="668000" />
       <workItem from="1603628098482" duration="6378000" />
       <workItem from="1603635413052" duration="292000" />
-      <workItem from="1603635832412" duration="11832000" />
+      <workItem from="1603635832412" duration="12173000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1603491902314</created>
@@ -403,7 +414,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603651869268</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Remove deleting webcam file&#10;Add optional trim video parameter">
+      <created>1603653228449</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603653228449</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add Contact Us text">
+      <created>1603653284332</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1603653284332</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,14 +479,16 @@
     <MESSAGE value="Add publishs" />
     <MESSAGE value="Change batch as sync operation" />
     <MESSAGE value="Fix Overwrite output options" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Overwrite output options" />
+    <MESSAGE value="Remove deleting webcam file&#10;Add optional trim video parameter" />
+    <MESSAGE value="Add Contact Us text" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Contact Us text" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603651001514">
+    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603653322164">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="346" y="350" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603491751044" />
-    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603651001514" />
+    <state x="450" y="326" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603653322164" />
     <state x="546" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603536094796">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -484,26 +511,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="533" y="238" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603491843437" />
-    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1603651835563">
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1603653289873">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780145" />
-    <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603651835563" />
-    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1603651835562">
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603653289873" />
+    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1603653289872">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
-    <state width="1638" height="345" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603651835562" />
-    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1603651835561">
+    <state width="1638" height="345" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603653289872" />
+    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1603653289871">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
-    <state width="1638" height="345" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603651835561" />
-    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1603651835562">
+    <state width="1638" height="345" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603653289871" />
+    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1603653289872">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780144" />
-    <state width="1638" height="345" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603651835562" />
+    <state width="1638" height="345" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603653289872" />
     <state width="1638" height="370" key="GridCell.Tab.1.bottom" timestamp="1603651748604">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -593,11 +620,11 @@
     </state>
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603544929600" />
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603536197433" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603651936746">
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603653285405">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603569731605" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603651936746" />
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603653285405" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603651737465">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -616,11 +643,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603477206015" />
-    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup" timestamp="1603652338300">
+    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup" timestamp="1603653233613">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603569165255" />
-    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603652338300" />
+    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603653233613" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
