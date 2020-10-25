@@ -38,7 +38,6 @@ namespace BigBlueButton_Video_Downloader.Media
             {
                 var videoPath = $"{index}.mp4";
                 var presentationItemOut = 1.0 / (presentationItem.Out - presentationItem.In);
-                Console.WriteLine(presentationItemOut);
                 var duration = TimeSpan.FromSeconds(presentationItem.Out - presentationItem.In).ToString(@"hh\:mm\:ss");
                 try
                 {
@@ -58,11 +57,10 @@ namespace BigBlueButton_Video_Downloader.Media
                         .SetOverwriteOutput(true)
                         .Start().GetAwaiter().GetResult();
 
-                    Console.WriteLine(conversionResult.Arguments);
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine(e.ToString());
+                    throw;
                 }
 
                 File.Delete(presentationItem.LocalSource);
