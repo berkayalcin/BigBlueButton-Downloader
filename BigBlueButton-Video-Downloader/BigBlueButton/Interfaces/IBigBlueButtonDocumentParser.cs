@@ -8,7 +8,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton.Interfaces
     {
         IWebElement GetByCssSelector(string selector);
         RecordingTitleModel GetRecordingTitle();
-        VideoSourceModel GetVideoSource(string selector, VideoType videoType);
+        VideoSourceModel GetVideoSource(string id, VideoType videoType);
         VideoSourceModel GetDeskShareVideoSource();
         VideoSourceModel GetWebcamVideoSource();
         PresentationModel GetPresentation();

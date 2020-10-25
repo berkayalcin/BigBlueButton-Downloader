@@ -69,7 +69,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                 };
 
             playButton.Click();
-
+            
             var presentationElement = GetByCssSelector(BigBlueButtonConstants.PresentationSelector);
             if (presentationElement == null)
             {
@@ -101,8 +101,9 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             };
         }
 
+        
 
-        public VideoSourceModel GetVideoSource(string selector, VideoType videoType)
+        public VideoSourceModel GetVideoSource(string id, VideoType videoType)
         {
             var playButton = GetByCssSelector(_options.PlayButtonSelector);
 
@@ -113,9 +114,11 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                 };
 
             playButton.Click();
-
-            var videoElement = GetByCssSelector(selector);
-
+            
+            var videoElement = _webDriver
+                .FindElements(By.TagName("video"))
+                .FirstOrDefault(v=>v.GetProperty("id").Equals(id));
+            
             if (videoElement == null)
                 return new VideoSourceModel()
                 {

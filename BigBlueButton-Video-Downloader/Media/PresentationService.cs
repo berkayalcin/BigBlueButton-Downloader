@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using BigBlueButton_Video_Downloader.Models;
 using Konsole;
@@ -27,41 +28,52 @@ namespace BigBlueButton_Video_Downloader.Media
             string outputFileName,
             string audioPath = null)
         {
-            // TODO Split Videos
             Directory.SetCurrentDirectory(directory);
-
-            var tempOutput = $"Temp{outputFileName}";
+            var tempOutput = $"temp_{outputFileName}";
 
             await using var streamWriter = new StreamWriter("videoList.txt");
-            foreach (var presentationItem in presentationItems)
+
+            var parallelLoopResult = Parallel.ForEach(presentationItems, (presentationItem, state, index) =>
             {
-                var index = presentationItems.IndexOf(presentationItem);
                 var videoPath = $"{index}.mp4";
-                // var presentationItemOut = 1.0 / (presentationItem.Out - presentationItem.In);
+                var presentationItemOut = 1.0 / (presentationItem.Out - presentationItem.In);
+                Console.WriteLine(presentationItemOut);
+                var duration = TimeSpan.FromSeconds(presentationItem.Out - presentationItem.In).ToString(@"hh\:mm\:ss");
+                try
+                {
+                    var conversionResult = FFmpeg.Conversions.New()
+                        // .AddParameter("-n -threads 1")
+                        .AddParameter("-y")
+                        .AddParameter($"-framerate {presentationItemOut:0.00000}")
+                        .AddParameter($"-i {presentationItem.LocalSource}")
+                        .AddParameter("-vcodec libx264")
+                        .AddParameter("-crf 27")
+                        .AddParameter("-preset veryfast")
+                        .AddParameter("-vf fps=10")
+                        .AddParameter("-pix_fmt yuv420p")
+                        .AddParameter("-ss 00:00:00")
+                        .AddParameter($"-t {duration}")
+                        .AddParameter(videoPath)
+                        .SetOverwriteOutput(true)
+                        .Start().GetAwaiter().GetResult();
 
-                await FFmpeg.Conversions.New()
-                    .BuildVideoFromImages(new[] {presentationItem.LocalSource})
-                    .SetInputFrameRate(1)
-                    .SetFrameRate(0.001)
-                    .SetPixelFormat(PixelFormat.yuv420p)
-                    .SetOutput($"tmp-{videoPath}")
-                    .Start();
+                    Console.WriteLine(conversionResult.Arguments);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.ToString());
+                }
 
-                await FFmpeg.Conversions.New()
-                    .AddParameter($"-ss 00:00:00")
-                    .AddParameter($"-i tmp-{videoPath}")
-                    .AddParameter($"-t 00:05:00")
-                    .AddParameter("-async 1")
-                    .AddParameter("-c copy")
-                    .AddParameter(videoPath)
-                    .Start();
+                File.Delete(presentationItem.LocalSource);
+            });
 
-
+            for (var i = 0; i < presentationItems.Count; i++)
+            {
+                var videoPath = $"{i}.mp4";
                 await streamWriter.WriteLineAsync($"file '{videoPath}'");
             }
 
             streamWriter.Close();
-
 
             await FFmpeg.Conversions.New()
                 .AddParameter("-f concat")
@@ -92,6 +104,7 @@ namespace BigBlueButton_Video_Downloader.Media
             var parentDirectory = Directory.GetParent(Directory.GetCurrentDirectory()).FullName;
             var newFileDestination = Path.Combine(parentDirectory, outputFileName);
             File.Move(tempOutput, newFileDestination, true);
+            Thread.Sleep(4000);
             Directory.SetCurrentDirectory(Directory.GetParent(Directory.GetCurrentDirectory()).FullName);
             Directory.Delete(directory);
         }

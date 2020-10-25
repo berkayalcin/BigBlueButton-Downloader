@@ -22,26 +22,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add Console Options">
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/BatchItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/BatchDownloadOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/SingleDownloadOptions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add DLls">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonDocumentParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonDocumentParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Constants/BigBlueButtonConstants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Constants/BigBlueButtonConstants.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +52,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/2d/079103f4/IConversion.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/42/ae87e916/IVideoStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/79/9fe9964c/ConversionPreset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/12E/Interlocked.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/b3/937e4b41/VideoStream.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/6d/812508e3/ChromeOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98DB89E2-C3F6-4150-B40D-5C31A87535AF/e4/1380429b/ProgressBar.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/49209D14-C067-4B2F-AF7F-84275571D2FF/41/72ccccd8/FFmpegVersion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EB067793-5C3F-4219-AEF1-3AB117C20649/5a/28633c2e/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/35/String.Manipulation.cs" root0="SKIP_HIGHLIGHTING" />
@@ -71,9 +69,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/af/a5f80f73/DefaultWait`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/21/bf44acb8/Conversion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2497A31A-B224-4172-A4A6-424EE2D49BFD/bc/d0a0da55/InputBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFA06CC1-3021-4FAA-A49F-A6D0D4259ABD/5f/72dd63da/RemoteWebDriver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CF4F7492-103D-4843-941A-11559D0F13F8/47/a6ac0f9f/EvaluateException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/EB067793-5C3F-4219-AEF1-3AB117C20649/1D8/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -108,7 +106,6 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/Interfaces/IBigBlueButtonDocumentParser.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Constants/ExceptionCodeConstants.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/FacadeInnerResponseModel.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Constants/BigBlueButtonConstants.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Mappers/PresentationMappers.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/PresentationItem.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Downloader/FileDownloader.cs" />
@@ -119,13 +116,14 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/FileExtensions.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Helpers/AppDomainHelpers.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/ConsoleManager.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverFactory.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Models/BatchItem.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" />
-        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Webdriver/WebDriverFactory.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Constants/BigBlueButtonConstants.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
       </list>
     </option>
   </component>
@@ -191,7 +189,11 @@
       <workItem from="1603483400102" duration="8517000" />
       <workItem from="1603534338973" duration="4594000" />
       <workItem from="1603543850690" duration="9547000" />
-      <workItem from="1603558288879" duration="23605000" />
+      <workItem from="1603558288879" duration="23941000" />
+      <workItem from="1603627380895" duration="668000" />
+      <workItem from="1603628098482" duration="6378000" />
+      <workItem from="1603635413052" duration="292000" />
+      <workItem from="1603635832412" duration="3850000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1603491902314</created>
@@ -256,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603576659129</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Batch Download&#10;Add TODO">
+      <created>1603583932207</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1603583932207</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add DLls">
+      <created>1603583957505</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1603583957505</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +310,9 @@
     <MESSAGE value="Add Directory Options" />
     <MESSAGE value="Fix output directory option" />
     <MESSAGE value="Add Console Options" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Console Options" />
+    <MESSAGE value="Add Batch Download&#10;Add TODO" />
+    <MESSAGE value="Add DLls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DLls" />
   </component>
   <component name="WindowStateProjectService">
     <state x="450" y="365" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603575178095">
@@ -306,16 +324,16 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="546" y="334" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1603536094796" />
-    <state x="1033" y="305" key="#xdebugger.evaluate" timestamp="1603582595834">
+    <state x="1070" y="229" key="#xdebugger.evaluate" timestamp="1603639188831">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="1033" y="288" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1603485750837" />
-    <state x="1033" y="305" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1603582595834" />
-    <state width="524" height="464" key="DebuggerActiveHint" timestamp="1603582509248">
+    <state x="1070" y="229" key="#xdebugger.evaluate/0.23.1680.1027@0.23.1680.1027" timestamp="1603639188831" />
+    <state width="524" height="464" key="DebuggerActiveHint" timestamp="1603639336491">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="524" height="464" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1603557494106" />
-    <state width="524" height="464" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1603582509248" />
+    <state width="524" height="464" key="DebuggerActiveHint/0.23.1680.1027@0.23.1680.1027" timestamp="1603639336491" />
     <state x="632" y="429" key="Github.ShareDialog" timestamp="1603491828510">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -324,106 +342,106 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="533" y="238" key="Github.UntrackedFilesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603491843437" />
-    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1603583539496">
+    <state width="1638" height="370" key="GridCell.Tab.0.bottom" timestamp="1603639384612">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780145" />
-    <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603583539496" />
-    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1603583539495">
+    <state width="1638" height="370" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603639384612" />
+    <state width="1638" height="370" key="GridCell.Tab.0.center" timestamp="1603639384611">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
-    <state width="1638" height="345" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603583539495" />
-    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1603583539494">
+    <state width="1638" height="370" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603639384611" />
+    <state width="1638" height="370" key="GridCell.Tab.0.left" timestamp="1603639384611">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780143" />
-    <state width="1638" height="345" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603583539494" />
-    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1603583539496">
+    <state width="1638" height="370" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603639384611" />
+    <state width="1638" height="370" key="GridCell.Tab.0.right" timestamp="1603639384611">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="270" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603569780144" />
-    <state width="1638" height="345" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603583539496" />
-    <state width="1638" height="373" key="GridCell.Tab.1.bottom" timestamp="1603582673780">
+    <state width="1638" height="370" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603639384611" />
+    <state width="1638" height="370" key="GridCell.Tab.1.bottom" timestamp="1603639350524">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098193" />
-    <state width="1638" height="373" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673780" />
-    <state width="1638" height="373" key="GridCell.Tab.1.center" timestamp="1603582673779">
+    <state width="1638" height="370" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603639350524" />
+    <state width="1638" height="370" key="GridCell.Tab.1.center" timestamp="1603639350523">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098192" />
-    <state width="1638" height="373" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673779" />
-    <state width="1638" height="373" key="GridCell.Tab.1.left" timestamp="1603582673779">
+    <state width="1638" height="370" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603639350523" />
+    <state width="1638" height="370" key="GridCell.Tab.1.left" timestamp="1603639350523">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098191" />
-    <state width="1638" height="373" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673779" />
-    <state width="1638" height="373" key="GridCell.Tab.1.right" timestamp="1603582673780">
+    <state width="1638" height="370" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603639350523" />
+    <state width="1638" height="370" key="GridCell.Tab.1.right" timestamp="1603639350524">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098192" />
-    <state width="1638" height="373" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673780" />
-    <state width="1638" height="373" key="GridCell.Tab.2.bottom" timestamp="1603582673783">
+    <state width="1638" height="370" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603639350524" />
+    <state width="1638" height="370" key="GridCell.Tab.2.bottom" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098195" />
-    <state width="1638" height="373" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673783" />
-    <state width="1638" height="373" key="GridCell.Tab.2.center" timestamp="1603582673781">
+    <state width="1638" height="370" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.2.center" timestamp="1603639345991">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098194" />
-    <state width="1638" height="373" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673781" />
-    <state width="1638" height="373" key="GridCell.Tab.2.left" timestamp="1603582673781">
+    <state width="1638" height="370" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345991" />
+    <state width="1638" height="370" key="GridCell.Tab.2.left" timestamp="1603639345991">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098193" />
-    <state width="1638" height="373" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673781" />
-    <state width="1638" height="373" key="GridCell.Tab.2.right" timestamp="1603582673782">
+    <state width="1638" height="370" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345991" />
+    <state width="1638" height="370" key="GridCell.Tab.2.right" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098194" />
-    <state width="1638" height="373" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673782" />
-    <state width="1638" height="373" key="GridCell.Tab.3.bottom" timestamp="1603582673791">
+    <state width="1638" height="370" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.3.bottom" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098196" />
-    <state width="1638" height="373" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673791" />
-    <state width="1638" height="373" key="GridCell.Tab.3.center" timestamp="1603582673788">
+    <state width="1638" height="370" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.3.center" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098195" />
-    <state width="1638" height="373" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673788" />
-    <state width="1638" height="373" key="GridCell.Tab.3.left" timestamp="1603582673784">
+    <state width="1638" height="370" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.3.left" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098195" />
-    <state width="1638" height="373" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673784" />
-    <state width="1638" height="373" key="GridCell.Tab.3.right" timestamp="1603582673790">
+    <state width="1638" height="370" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.3.right" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098196" />
-    <state width="1638" height="373" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673790" />
-    <state width="1638" height="373" key="GridCell.Tab.4.bottom" timestamp="1603582673794">
+    <state width="1638" height="370" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.4.bottom" timestamp="1603639345993">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098198" />
-    <state width="1638" height="373" key="GridCell.Tab.4.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673794" />
-    <state width="1638" height="373" key="GridCell.Tab.4.center" timestamp="1603582673794">
+    <state width="1638" height="370" key="GridCell.Tab.4.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345993" />
+    <state width="1638" height="370" key="GridCell.Tab.4.center" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098197" />
-    <state width="1638" height="373" key="GridCell.Tab.4.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673794" />
-    <state width="1638" height="373" key="GridCell.Tab.4.left" timestamp="1603582673793">
+    <state width="1638" height="370" key="GridCell.Tab.4.center/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.4.left" timestamp="1603639345992">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098197" />
-    <state width="1638" height="373" key="GridCell.Tab.4.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673793" />
-    <state width="1638" height="373" key="GridCell.Tab.4.right" timestamp="1603582673794">
+    <state width="1638" height="370" key="GridCell.Tab.4.left/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345992" />
+    <state width="1638" height="370" key="GridCell.Tab.4.right" timestamp="1603639345993">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="391" key="GridCell.Tab.4.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603566098197" />
-    <state width="1638" height="373" key="GridCell.Tab.4.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603582673794" />
+    <state width="1638" height="370" key="GridCell.Tab.4.right/0.23.1680.1027@0.23.1680.1027" timestamp="1603639345993" />
     <state x="501" y="233" key="RiderGenerateDialog" timestamp="1603544847947">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -433,16 +451,16 @@
     </state>
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603544929600" />
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603536197433" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603575038717">
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603583961955">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603569731605" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603575038717" />
-    <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603565878148">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603583961955" />
+    <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603638961011">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="840" height="525" key="XDebugger.FullValuePopup/0.0.1680.1050@0.0.1680.1050" timestamp="1603565878148" />
-    <state width="840" height="525" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1603558159581" />
+    <state width="840" height="525" key="XDebugger.FullValuePopup/0.23.1680.1027@0.23.1680.1027" timestamp="1603638961011" />
     <state x="443" y="297" width="794" height="490" key="find.popup" timestamp="1603574296928">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -452,10 +470,81 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603477206015" />
-    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup" timestamp="1603582929820">
+    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup" timestamp="1603639153625">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603569165255" />
-    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603582929820" />
+    <state x="503" y="249" width="672" height="664" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603639153625" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs</url>
+          <line>101</line>
+          <properties documentPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/PresentationService.cs" initialLine="101">
+            <startOffsets>
+              <option value="3720" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3749" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs</url>
+          <line>202</line>
+          <properties documentPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" initialLine="202">
+            <startOffsets>
+              <option value="7326" />
+            </startOffsets>
+            <endOffsets>
+              <option value="7352" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs</url>
+          <line>176</line>
+          <properties documentPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" initialLine="176">
+            <startOffsets>
+              <option value="5940" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5995" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs</url>
+          <line>107</line>
+          <properties documentPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" initialLine="106">
+            <startOffsets>
+              <option value="3505" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3568" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs</url>
+          <line>121</line>
+          <properties documentPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonDocumentParser.cs" initialLine="121">
+            <startOffsets>
+              <option value="3994" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4019" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

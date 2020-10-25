@@ -161,8 +161,8 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                 downloadPresentationResponse = false,
                 hasAudio = false;
 
-            _webDriver = WebDriverFactory.Create(_webDriverType);
-            _webDriver.Url = _url;
+            _webDriver = WebDriverFactory.Create(_webDriverType, _url);
+
 
             _bigBlueButtonDocumentParser = new BigBlueButtonDocumentParser(_webDriver, Options);
 
@@ -225,6 +225,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                 deskShareVideoName,
                 tmpPresentationName
             );
+            _webDriver.Quit();
         }
 
         private async Task ExtractAndAddAudio(string audioInputPath, string audioOutputPath,
@@ -307,17 +308,18 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             Directory.SetCurrentDirectory(tempDirectory);
 
             var presentationItems = presentation.Items.ToList();
-            foreach (var presentationItem in presentationItems)
+
+            Parallel.ForEach(presentationItems, presentationItem =>
             {
                 var index = presentationItems.IndexOf(presentationItem);
 
-                await _fileDownloader.DownloadPngFileAsync(presentationItem.Source,
+                _fileDownloader.DownloadPngFileAsync(presentationItem.Source,
                     index.ToString(),
                     null,
                     null
-                );
+                ).GetAwaiter().GetResult();
                 presentationItems[index].LocalSource = $"{index}.png";
-            }
+            });
 
             Directory.SetCurrentDirectory(Directory.GetParent(Directory.GetCurrentDirectory()).FullName);
 
