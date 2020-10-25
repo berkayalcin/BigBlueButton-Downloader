@@ -21,6 +21,7 @@ namespace BigBlueButton_Video_Downloader.Media
             extractAudio.UseMultiThread(useMultiThread);
             if (onProgress != null)
                 extractAudio.OnProgress += onProgress.Invoke;
+            extractAudio.SetOverwriteOutput(true);
             await extractAudio.Start();
         }
 
@@ -33,6 +34,7 @@ namespace BigBlueButton_Video_Downloader.Media
             addAudio.UseMultiThread(useMultiThread);
             if (onProgress != null)
                 addAudio.OnProgress += onProgress.Invoke;
+            addAudio.SetOverwriteOutput(true);
             await addAudio.Start();
         }
     }
