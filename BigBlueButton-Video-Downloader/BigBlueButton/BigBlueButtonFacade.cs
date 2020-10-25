@@ -62,6 +62,8 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             _presentationService = presentationService;
         }
 
+        #region Options
+
         public IBigBlueButtonFacade SetOutputDirectory(string directory)
         {
             if (string.IsNullOrEmpty(_outputFileName))
@@ -148,6 +150,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             return this;
         }
 
+        #endregion
 
         public async Task StartAsync()
         {
@@ -224,8 +227,8 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             if (downloadVideoResponse)
             {
                 if (hasAudio)
-                    await ExtractAndAddAudio(audioInputPath, audioOutputPath, deskShareInputPath,
-                        videoOutputPath);
+                    await _videoService.ExtractAndAddAudio(audioInputPath, audioOutputPath, deskShareInputPath,
+                        videoOutputPath, _outputDirectory, _isUseMultiThread);
                 else
                     File.Move(deskShareInputPath, videoOutputPath, true);
             }
@@ -233,8 +236,8 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             if (downloadPresentationResponse)
             {
                 if (hasAudio)
-                    await ExtractAndAddAudio(audioInputPath, audioOutputPath, tmpPresentationPath,
-                        presentationOutputPath);
+                    await _videoService.ExtractAndAddAudio(audioInputPath, audioOutputPath, tmpPresentationPath,
+                        presentationOutputPath, _outputDirectory, _isUseMultiThread);
                 else
                     File.Move(tmpPresentationPath, presentationOutputPath, true);
             }
@@ -249,44 +252,6 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             _webDriver.Quit();
         }
 
-        private async Task ExtractAndAddAudio(string audioInputPath, string audioOutputPath,
-            string inputPath, string outputPath)
-        {
-            Console.WriteLine("Extracting Audio");
-            if (!File.Exists(audioOutputPath))
-                await _videoService.ExtractAudio(audioInputPath,
-                    audioOutputPath,
-                    (o, args) => { },
-                    _isUseMultiThread
-                );
-
-            var audio = await FFmpeg.GetMediaInfo(audioOutputPath);
-            var inputVideo = await FFmpeg.GetMediaInfo(inputPath);
-
-            if (TimeSpan.Compare(audio.Duration, inputVideo.Duration) == -1)
-            {
-                // Split Video
-
-                Console.WriteLine("Splitting Video");
-                var tempOutput = AppDomainHelpers
-                    .GetPath(_outputDirectory, "temp_split_video_output", ".mp4");
-
-                var split = await FFmpeg.Conversions.FromSnippet.Split(inputPath, tempOutput, TimeSpan.Zero,
-                    audio.Duration);
-                split.UseMultiThread(true);
-                await split.Start();
-
-                File.Move(tempOutput, inputPath, true);
-            }
-
-            Console.WriteLine("Adding Audio");
-            await _videoService.AddAudio(inputPath,
-                audioOutputPath,
-                outputPath,
-                (o, args) => { },
-                _isUseMultiThread
-            );
-        }
 
         private async Task<FacadeInnerResponseModel> DownloadVideo(string deskShareVideoName)
         {
