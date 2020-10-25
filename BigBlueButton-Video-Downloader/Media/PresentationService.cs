@@ -44,7 +44,7 @@ namespace BigBlueButton_Video_Downloader.Media
                 try
                 {
                     var conversionResult = FFmpeg.Conversions.New()
-                        .AddParameter($"-n -threads {threadCount}")
+                        .AddParameter($"-y -threads {threadCount}")
                         .AddParameter($"-framerate {presentationItemOut:0.00000}")
                         .AddParameter($"-i {presentationItem.LocalSource}")
                         .AddParameter("-vcodec libx264")
@@ -55,7 +55,6 @@ namespace BigBlueButton_Video_Downloader.Media
                         .AddParameter("-ss 00:00:00")
                         .AddParameter($"-t {duration}")
                         .AddParameter(videoPath)
-                        .SetOverwriteOutput(true)
                         .Start().GetAwaiter().GetResult();
                 }
                 catch (Exception e)
