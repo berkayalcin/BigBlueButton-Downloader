@@ -15,6 +15,7 @@ namespace BigBlueButton_Video_Downloader.Media
             bool useMultiThread = false);
 
         Task ExtractAndAddAudio(string audioInputPath, string audioOutputPath,
-            string inputPath, string outputPath, string tempDirectory, bool isMultiThread = false);
+            string inputPath, string outputPath, string tempDirectory, bool isMultiThread = false,
+            bool trimVideo = false);
     }
 }

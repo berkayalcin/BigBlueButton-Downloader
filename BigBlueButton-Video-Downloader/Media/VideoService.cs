@@ -16,7 +16,7 @@ namespace BigBlueButton_Video_Downloader.Media
         }
 
         public async Task ExtractAndAddAudio(string audioInputPath, string audioOutputPath,
-            string inputPath, string outputPath, string tempDirectory, bool isMultiThread = false)
+            string inputPath, string outputPath, string tempDirectory, bool isMultiThread = false,bool trimVideo=false)
         {
             Console.WriteLine("Extracting Audio");
             if (!File.Exists(audioOutputPath))
@@ -29,7 +29,7 @@ namespace BigBlueButton_Video_Downloader.Media
             var audio = await FFmpeg.GetMediaInfo(audioOutputPath);
             var inputVideo = await FFmpeg.GetMediaInfo(inputPath);
 
-            if (TimeSpan.Compare(audio.Duration, inputVideo.Duration) == -1)
+            if (trimVideo && TimeSpan.Compare(audio.Duration, inputVideo.Duration) == -1)
             {
                 // Split Video
 

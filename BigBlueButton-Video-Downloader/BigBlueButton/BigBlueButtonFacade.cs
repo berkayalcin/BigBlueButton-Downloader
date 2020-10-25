@@ -228,7 +228,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             {
                 if (hasAudio)
                     await _videoService.ExtractAndAddAudio(audioInputPath, audioOutputPath, deskShareInputPath,
-                        videoOutputPath, _outputDirectory, _isUseMultiThread);
+                        videoOutputPath, _outputDirectory, _isUseMultiThread, true);
                 else
                     File.Move(deskShareInputPath, videoOutputPath, true);
             }
@@ -237,14 +237,13 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             {
                 if (hasAudio)
                     await _videoService.ExtractAndAddAudio(audioInputPath, audioOutputPath, tmpPresentationPath,
-                        presentationOutputPath, _outputDirectory, _isUseMultiThread);
+                        presentationOutputPath, _outputDirectory, _isUseMultiThread, true);
                 else
                     File.Move(tmpPresentationPath, presentationOutputPath, true);
             }
 
 
             RemoveTempFiles(
-                webcamVideoName,
                 audioOutputName,
                 deskShareVideoName,
                 tmpPresentationName
@@ -338,13 +337,12 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             };
         }
 
-        public void RemoveTempFiles(string webcamVideoName,
+        public void RemoveTempFiles(
             string audioOutputName,
             string deskShareVideoName,
             string presentationName)
         {
             Console.WriteLine("Removing Temp Files");
-            FileExtensions.DeleteFileInAppDirectory(_outputDirectory, webcamVideoName, ".mp4");
             FileExtensions.DeleteFileInAppDirectory(_outputDirectory, audioOutputName, ".mp3");
             FileExtensions.DeleteFileInAppDirectory(_outputDirectory, deskShareVideoName, ".mp4");
             FileExtensions.DeleteFileInAppDirectory(_outputDirectory, presentationName, ".mp4");

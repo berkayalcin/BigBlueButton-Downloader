@@ -18,7 +18,7 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton.Interfaces
         IBigBlueButtonFacade SetVideoType(VideoType videoType);
         Task StartAsync();
 
-        void RemoveTempFiles(string webcamVideoName, string audioOutputName, string deskShareVideoName,
+        void RemoveTempFiles(string audioOutputName, string deskShareVideoName,
             string presentationName);
 
         IBigBlueButtonFacade EnableDownloadPresentation();
