@@ -66,7 +66,7 @@ namespace BigBlueButton_Video_Downloader.UI
                         }
                         catch (Exception e)
                         {
-                            Console.WriteLine($"Error Occured : {e.ToString()}");
+                            Console.WriteLine($"Error Occured : {e.Message}");
                             return -1;
                         }
 
