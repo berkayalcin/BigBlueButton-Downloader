@@ -3,6 +3,10 @@
 BigBlueButton is an online conference system and has features such as conference recording and presentation.
 BigBlueButton Downloader allows you to download Presentation and Video at BBB Playback.
 
+## Requirements
+
+- DotNetCore 3.1 Runtime
+
 ## Getting Started
 
 - Download BigBlueButton Downloader compatible with your computer's operating system.
