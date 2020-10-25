@@ -9,6 +9,7 @@ namespace BigBlueButton_Video_Downloader.Media
         Task CreatePresentation(List<PresentationItem> presentationItems,
             string directory,
             string outputFileName,
-            string audioPath = null);
+            string audioPath = null,
+            bool useMultiThread = false);
     }
 }

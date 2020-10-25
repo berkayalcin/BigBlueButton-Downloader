@@ -26,11 +26,12 @@ namespace BigBlueButton_Video_Downloader.Media
         public async Task CreatePresentation(List<PresentationItem> presentationItems,
             string directory,
             string outputFileName,
-            string audioPath = null)
+            string audioPath = null,
+            bool useMultiThread = false)
         {
             Directory.SetCurrentDirectory(directory);
             var tempOutput = $"temp_{outputFileName}";
-
+            var threadCount = useMultiThread ? Environment.ProcessorCount.ToString() : "1";
             await using var streamWriter = new StreamWriter("videoList.txt");
 
             var parallelLoopResult = Parallel.ForEach(presentationItems, (presentationItem, state, index) =>
@@ -42,7 +43,7 @@ namespace BigBlueButton_Video_Downloader.Media
                 try
                 {
                     var conversionResult = FFmpeg.Conversions.New()
-                        // .AddParameter("-n -threads 1")
+                        .AddParameter($"-n -threads {threadCount}")
                         .AddParameter("-y")
                         .AddParameter($"-framerate {presentationItemOut:0.00000}")
                         .AddParameter($"-i {presentationItem.LocalSource}")

@@ -363,7 +363,8 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
 
             Directory.SetCurrentDirectory(Directory.GetParent(Directory.GetCurrentDirectory()).FullName);
 
-            await _presentationService.CreatePresentation(presentationItems, tempDirectory, $"{presentationName}.mp4");
+            await _presentationService.CreatePresentation(presentationItems, tempDirectory, $"{presentationName}.mp4",
+                null, true);
 
 
             return new FacadeInnerResponseModel()
