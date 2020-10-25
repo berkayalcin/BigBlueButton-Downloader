@@ -29,6 +29,8 @@ namespace BigBlueButton_Video_Downloader.Media
             string audioPath = null,
             bool useMultiThread = false)
         {
+            if (!Directory.Exists(directory))
+                Directory.CreateDirectory(directory);
             Directory.SetCurrentDirectory(directory);
             var tempOutput = $"temp_{outputFileName}";
             var threadCount = useMultiThread ? Environment.ProcessorCount.ToString() : "1";
@@ -56,7 +58,6 @@ namespace BigBlueButton_Video_Downloader.Media
                         .AddParameter(videoPath)
                         .SetOverwriteOutput(true)
                         .Start().GetAwaiter().GetResult();
-
                 }
                 catch (Exception e)
                 {

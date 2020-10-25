@@ -50,7 +50,7 @@ namespace BigBlueButton_Video_Downloader.UI
 
                                 return i;
                             }).ToList();
-                            Parallel.ForEach(items, (batchItem, state, index) =>
+                            foreach (var batchItem in items)
                             {
                                 SingleDownload(new SingleDownloadOptions()
                                 {
@@ -62,11 +62,11 @@ namespace BigBlueButton_Video_Downloader.UI
                                     OutputDirectory = batch.OutputDirectory,
                                     OutputFile = batchItem.OutputName
                                 });
-                            });
+                            }
                         }
                         catch (Exception e)
                         {
-                            Console.WriteLine($"Error Occured : {e.Message}");
+                            Console.WriteLine($"Error Occured : {e.ToString()}");
                             return -1;
                         }
 
