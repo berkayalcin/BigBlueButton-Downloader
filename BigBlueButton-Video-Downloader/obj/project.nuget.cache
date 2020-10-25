@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ozF2SIGqZaWVxwyN0DvrPuD2egSO8ZoVSuZdfTTxkC2kTGKbqKEr8cspUNp+DE4F1g2QGQHQ6AD6djnf7EgBCg==",
+  "dgSpecHash": "yS7Z4CeV4xMGjPMplNtY/ctE7ziG3oTLQKpH1mLMAVTnQf8MODF4++EBWaTFrOLrQXfNvUs/5kyO8InbHz5uMA==",
   "success": true,
   "projectFilePath": "/Users/berkay.yalcin/RiderProjects/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader/BigBlueButton-Video-Downloader.csproj",
   "expectedPackageFiles": [
@@ -126,9 +126,8 @@
     "/Users/berkay.yalcin/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
     "/Users/berkay.yalcin/.nuget/packages/xabe.ffmpeg/4.3.1/xabe.ffmpeg.4.3.1.nupkg.sha512",
     "/Users/berkay.yalcin/.nuget/packages/xabe.ffmpeg.downloader/4.3.1/xabe.ffmpeg.downloader.4.3.1.nupkg.sha512",
-    "/Users/berkay.yalcin/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/3.1.8/microsoft.netcore.app.runtime.linux-x64.3.1.8.nupkg.sha512",
-    "/Users/berkay.yalcin/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/3.1.8/microsoft.aspnetcore.app.runtime.linux-x64.3.1.8.nupkg.sha512",
-    "/Users/berkay.yalcin/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.8/microsoft.netcore.app.host.linux-x64.3.1.8.nupkg.sha512"
+    "/Users/berkay.yalcin/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/3.1.8/microsoft.netcore.app.runtime.osx-x64.3.1.8.nupkg.sha512",
+    "/Users/berkay.yalcin/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/3.1.8/microsoft.aspnetcore.app.runtime.osx-x64.3.1.8.nupkg.sha512"
   ],
   "logs": []
 }

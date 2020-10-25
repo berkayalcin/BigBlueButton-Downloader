@@ -130,7 +130,7 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Publish to folder.Publish Unix">
+  <component name="RunManager" selected="Publish to folder.Publish Windows">
     <configuration name="Publish MacOs" type="DotNetFolderPublish" factoryName="Publish to folder">
       <riderPublish runtime="osx-x64" self_contained="true" target_folder="$USER_HOME$/Desktop/BigBlueButton/Osx64" target_framework="netcoreapp3.1" uuid_high="969054557915990630" uuid_low="-5031285634211158110" />
       <method v="2" />

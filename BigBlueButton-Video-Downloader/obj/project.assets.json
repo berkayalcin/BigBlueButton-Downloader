@@ -1481,7 +1481,7 @@
         }
       }
     },
-    ".NETCoreApp,Version=v3.1/linux-x64": {
+    ".NETCoreApp,Version=v3.1/osx-x64": {
       "Colorful.Console/1.2.11": {
         "type": "package",
         "dependencies": {
@@ -2875,7 +2875,7 @@
           "ref/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {}
         },
         "runtime": {
-          "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {}
+          "runtimes/osx/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {}
         }
       },
       "System.Security.Cryptography.Cng/4.3.0": {
@@ -8051,15 +8051,11 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
             "version": "[3.1.8, 3.1.8]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[3.1.8, 3.1.8]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+            "name": "Microsoft.NETCore.App.Runtime.osx-x64",
             "version": "[3.1.8, 3.1.8]"
           }
         ],
@@ -8072,7 +8068,7 @@
       }
     },
     "runtimes": {
-      "linux-x64": {
+      "osx-x64": {
         "#import": []
       }
     }
