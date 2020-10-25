@@ -38,8 +38,19 @@ namespace BigBlueButton_Video_Downloader.UI
                     {
                         try
                         {
-                            var batchItems = ParseBatchItems(batch.BatchListFilePath);
-                            Parallel.ForEach(batchItems, (batchItem, state, index) =>
+                            var batchItems = ParseBatchItems(batch.BatchListFilePath).ToList();
+                            var items = batchItems.Select(i =>
+                            {
+                                var outputNameCount = batchItems.Count(t => t.OutputName.Equals(i.OutputName));
+                                if (outputNameCount > 1)
+                                {
+                                    i.OutputName =
+                                        $"{i.OutputName}_{outputNameCount - 1}";
+                                }
+
+                                return i;
+                            }).ToList();
+                            Parallel.ForEach(items, (batchItem, state, index) =>
                             {
                                 SingleDownload(new SingleDownloadOptions()
                                 {

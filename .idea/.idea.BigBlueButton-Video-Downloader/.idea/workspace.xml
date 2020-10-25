@@ -22,9 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Refactor">
-      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" afterDir="false" />
+    <list default="true" id="476dc954-4b67-4baa-8140-86979cd0f272" name="Default Changelist" comment="Add Paralel Batching">
+      <change afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/LinqExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BigBlueButton-Video-Downloader/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/BigBlueButton-Video-Downloader.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/Debug/netcoreapp3.1/osx-x64/BigBlueButton-Video-Downloader.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +118,7 @@
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Media/VideoService.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/BigBlueButton/BigBlueButtonFacade.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Program.cs" />
+        <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/Extensions/LinqExtensions.cs" />
         <option value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" />
       </list>
     </option>
@@ -137,7 +149,7 @@
     </configuration>
     <configuration name="BigBlueButton-Video-Downloader" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1/BigBlueButton-Video-Downloader.dll" />
-      <option name="PROGRAM_PARAMETERS" value="--help" />
+      <option name="PROGRAM_PARAMETERS" value="batch-download -m true -d $USER_HOME$/Desktop/demo-batch/ -f $USER_HOME$/Desktop/batchFile.txt" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BigBlueButton-Video-Downloader/bin/Debug/netcoreapp3.1" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -177,7 +189,7 @@
       <workItem from="1603627380895" duration="668000" />
       <workItem from="1603628098482" duration="6378000" />
       <workItem from="1603635413052" duration="292000" />
-      <workItem from="1603635832412" duration="6875000" />
+      <workItem from="1603635832412" duration="7428000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1603491902314</created>
@@ -291,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603642744523</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add Paralel Batching">
+      <created>1603642850850</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603642850850</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,14 +354,15 @@
     <MESSAGE value="Trim Presentation If Greater Than Audio" />
     <MESSAGE value="Add Thread Option" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="Add Paralel Batching" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Paralel Batching" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="450" y="365" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603575178095">
+    <state x="450" y="365" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603643412419">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="346" y="350" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603491751044" />
-    <state x="450" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603575178095" />
+    <state x="450" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603643412419" />
     <state x="546" y="334" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603536094796">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -474,11 +494,11 @@
     </state>
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603544929600" />
     <state x="100" y="100" width="1480" height="850" key="VCS.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1603536197433" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603642748700">
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2" timestamp="1603642852138">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603569731605" />
-    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603642748700" />
+    <state x="440" y="282" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603642852138" />
     <state width="840" height="525" key="XDebugger.FullValuePopup" timestamp="1603640223829">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -498,5 +518,37 @@
     </state>
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603569165255" />
     <state x="503" y="249" width="672" height="664" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1603642437603" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs</url>
+          <line>49</line>
+          <properties documentPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" initialLine="47">
+            <startOffsets>
+              <option value="1889" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2690" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/BigBlueButton-Video-Downloader/UI/CommandLineManager.cs" initialLine="41">
+            <startOffsets>
+              <option value="1415" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1860" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
