@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using BigBlueButton_Video_Downloader.BigBlueButton.Interfaces;
 using BigBlueButton_Video_Downloader.Constants;
@@ -13,6 +14,7 @@ using BigBlueButton_Video_Downloader.Media;
 using BigBlueButton_Video_Downloader.Models;
 using BigBlueButton_Video_Downloader.Webdriver;
 using OpenQA.Selenium;
+using Xabe.FFmpeg;
 
 namespace BigBlueButton_Video_Downloader.BigBlueButton
 {
@@ -172,23 +174,42 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
             var presentationName = $"{_outputFileName}-presentation";
             var tmpPresentationName = $"{_outputFileName}-tmp";
 
-            if (_isDownloadDeskShareVideo)
+            var downloadDeskShareThread = new Thread(() =>
             {
-                var response = await DownloadVideo(deskShareVideoName);
-                downloadVideoResponse = response.IsSuccess;
-            }
+                if (_isDownloadDeskShareVideo)
+                {
+                    var response = DownloadVideo(deskShareVideoName).GetAwaiter().GetResult();
+                    downloadVideoResponse = response.IsSuccess;
+                }
+            });
 
-            if (_isDownloadWebcamVideo)
+            var downloadWebcamThread = new Thread(() =>
             {
-                var response = await DownloadWebcam(webcamVideoName);
-                hasAudio = response.IsSuccess;
-            }
+                if (_isDownloadWebcamVideo)
+                {
+                    var response = DownloadWebcam(webcamVideoName).GetAwaiter().GetResult();
+                    hasAudio = response.IsSuccess;
+                }
+            });
 
-            if (_isDownloadPresentation)
+            var downloadPresentationThread = new Thread(() =>
             {
-                var response = await DownloadPresentation(tmpPresentationName);
-                downloadPresentationResponse = response.IsSuccess;
-            }
+                if (_isDownloadPresentation)
+                {
+                    var response = DownloadPresentation(tmpPresentationName).GetAwaiter().GetResult();
+                    downloadPresentationResponse = response.IsSuccess;
+                }
+            });
+
+
+            downloadDeskShareThread.Start();
+            downloadWebcamThread.Start();
+            downloadPresentationThread.Start();
+
+            downloadWebcamThread.Join();
+            downloadDeskShareThread.Join();
+            downloadPresentationThread.Join();
+
 
             if (!downloadVideoResponse && !downloadPresentationResponse)
                 throw new BigBlueButtonDocumentException("Neither Video Nor Presentation Couldn't Be Downloaded.");
@@ -238,6 +259,25 @@ namespace BigBlueButton_Video_Downloader.BigBlueButton
                     (o, args) => { },
                     _isUseMultiThread
                 );
+
+            var audio = await FFmpeg.GetMediaInfo(audioOutputPath);
+            var inputVideo = await FFmpeg.GetMediaInfo(inputPath);
+
+            if (TimeSpan.Compare(audio.Duration, inputVideo.Duration) == -1)
+            {
+                // Split Video
+
+                Console.WriteLine("Splitting Video");
+                var tempOutput = AppDomainHelpers
+                    .GetPath(_outputDirectory, "temp_split_video_output", ".mp4");
+
+                var split = await FFmpeg.Conversions.FromSnippet.Split(inputPath, tempOutput, TimeSpan.Zero,
+                    audio.Duration);
+                split.UseMultiThread(true);
+                await split.Start();
+
+                File.Move(tempOutput, inputPath, true);
+            }
 
             Console.WriteLine("Adding Audio");
             await _videoService.AddAudio(inputPath,

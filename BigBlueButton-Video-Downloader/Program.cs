@@ -30,7 +30,7 @@ namespace BigBlueButton_Video_Downloader
                 .EnableMultiThread()
                 .SetDriverType(WebDriverType.Chrome)
                 .EnableDownloadWebcamVideo()
-                .EnableDownloadDeskshareVideo()
+                .DisableDownloadDeskshareVideo()
                 .EnableDownloadPresentation()
                 .SetOutputFileName("BigBlueButtonVideo_1")
                 .SetOutputDirectory("/Users/berkay.yalcin/Desktop/deneme")

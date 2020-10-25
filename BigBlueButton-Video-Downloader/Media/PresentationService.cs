@@ -49,7 +49,7 @@ namespace BigBlueButton_Video_Downloader.Media
                         .AddParameter("-vcodec libx264")
                         .AddParameter("-crf 27")
                         .AddParameter("-preset veryfast")
-                        .AddParameter("-vf fps=10")
+                        .AddParameter("-vf fps=5")
                         .AddParameter("-pix_fmt yuv420p")
                         .AddParameter("-ss 00:00:00")
                         .AddParameter($"-t {duration}")
